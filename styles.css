@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Parisienne&display=swap');
 
 /* ==========================
    DESIGN SYSTEM - BENDITO TALLER (GOOGLE SITES DESIGN)
@@ -1771,7 +1771,7 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: row;
         align-items: center;
         gap: 4px;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 600;
     }
     .nav-brand-btn {
@@ -1790,7 +1790,7 @@ h1, h2, h3, h4, h5, h6 {
     .categories-dropdown .dropdown-btn {
         background: linear-gradient(135deg, #889c90 0%, #708277 100%);
         color: white !important;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 600;
         padding: 0 18px; /* Ajustado al largo del texto */
         border-radius: 18px;
@@ -1964,7 +1964,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .decor-banner-title {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Parisienne', sans-serif;
+    font-style: normal;
     font-size: 38px;
     font-weight: 400;
     margin: 0 0 8px 0;
@@ -1974,7 +1975,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .decor-banner-text {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Parisienne', sans-serif;
+    font-style: normal;
     font-size: 22px;
     font-weight: 400;
     margin: 0;
@@ -2205,7 +2207,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dots-banner-title {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Parisienne', sans-serif;
+    font-style: normal;
     font-size: 38px;
     font-weight: 400;
     margin: 0 0 8px 0;
@@ -2215,7 +2218,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dots-banner-text {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Parisienne', sans-serif;
+    font-style: normal;
     font-size: 22px;
     font-weight: 400;
     margin: 0;
