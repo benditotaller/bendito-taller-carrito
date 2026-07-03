@@ -159,17 +159,12 @@
 - [x] Perfeccionar redirección de retorno en producción usando la ruta directa de Google Sites y seguimiento de referrer original (`referrerSites` en `sessionStorage`) en add.html, script.js y carrito.html para resolver el error DNS ERR_ADDRESS_UNREACHABLE en celulares y regresar incondicionalmente a Google Sites al pulsar "Volver al catálogo".
 - [x] Corregir la URL fallback de Google Sites a `https://sites.google.com/view/bendito-taller/p%C3%A1gina-principal` (añadiendo el guión medio faltante) y adaptar las condiciones de coincidencia de referrer en add.html, script.js y carrito.html.
 - [x] Resolver la redirección prematura del selector al iniciar: se cambiaron las llamadas del sistema de `cerrarPopup()` por `cerrarPopupSilencioso()` en abrirSelectorProducto() y abrirImagenGrande() dentro de script.js, asegurando que el modal no se cierre automáticamente tras 2 segundos al entrar y permitiendo al usuario elegir variantes y presionar botones con tranquilidad.
-- [x] Unificar el diseño de tabla de precios (measures-list-layout) en todos los productos (simples y multimedidas), usando "Única" para la medida por defecto en productos simples, y borrar la leyenda "(4+)" de todos los títulos de columnas de precios de la web.
-- [x] Integrar especificaciones de productos desde `productos_detalles.xlsx`: se procesó el archivo Excel para extraer las columnas de descripción y medida de cada producto por código, se insertaron estáticamente en `productos.js`, y se adaptaron las tarjetas de productos (renderCatalog) y el selector modal (abrirCompraModal) en `script.js` y `styles.css` para mostrar código, detalles y medida de forma alineada y compatible con móviles.
-- [x] Intercambiar tamaños de letras en las tarjetas de productos: se modificó `styles.css` para aplicar un tamaño de 13px (11px en móvil) al código del producto (`.product-title`), y se aumentaron a 16px (13px en móvil) los subtítulos/detalles (`.product-desc`), los precios (`.price-row` / `.measure-price-row`) y el botón "Lo quiero" (`.product-action-btn`).
-- [x] Agrandar los cuadros de productos y juntarlos: se modificó `.products-grid` en `styles.css` para reducir el espacio (gap) de `20px` a `12px` (y de `0.5cm` a `10px` en móvil) y aumentar la anchura mínima del producto de `210px` a `240px`, logrando tarjetas más amplias y con mayor espacio horizontal para los textos.
-- [x] Renombrar columna de precios "Unitario" a "Unidad": se modificaron los encabezados de las tablas de precios en `script.js` para usar la etiqueta "Unidad", optimizando el espacio horizontal en las tarjetas de productos.
-- [x] Remover columnas redundantes de "Medida" en productos simples: se reestructuró la visualización de precios para productos tipo `simple` en `script.js` y `styles.css` empleando una tabla de 2 columnas (Mayor y Unidad) sin la columna "Medida" ni la celda "Única", dado que la medida real ya se muestra arriba en la etiqueta de color verde.
-- [x] Achicar códigos y agrandar subtítulos (detalles): se modificó `styles.css` para reducir en 2px el tamaño de los códigos (`.product-title` pasa de 13px a 11px en desktop, y de 11px a 9px en móvil) y aumentar en 1px los subtítulos/detalles (`.product-desc` pasa de 16px a 17px en desktop, y de 13px a 14px en móvil).
-- [x] Probar nueva imagen de toldo en vista móvil: se copió `D:\TOLDO NUEVO.jpg` a la carpeta local del proyecto como `img/toldo_nuevo.jpg` y se configuró en `styles.css` como la imagen de fondo para `.main-navbar::before` dentro de la media query móvil con un `background-size: 100% 100%`.
-- [x] Ajustar altura de toldo móvil a 70px: se modificó la altura del toldo a 70px en `styles.css` y se incrementó el scroll-margin-top de `#catalog-section` a 180px para prevenir superposiciones.
-- [x] Recortar rodillo y soportes de toldo_nuevo.jpg: se programó un script en Python para recortar los bordes superior y laterales (rollers/pipe) de `toldo_nuevo.jpg`, logrando que la lona a rayas ocupe el 100% del ancho tal como se muestra en la captura de referencia `fe6afdcd-df76-4a53-a707-e576164fc5b3.jpg`.
-- [x] Convertir toldo_nuevo.jpg a toldo_nuevo.png transparente: se utilizó un script en Python para aplicar un algoritmo de flood-fill y remover el fondo blanco bajo las ondas festoneadas, cargándolo en `styles.css` como PNG para que se mezcle con el color de la barra.
+
+
+
+
+
+
 
 
 

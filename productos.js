@@ -5,9 +5,7 @@ const productos = {
         "imagen": "img/Abeja reina.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Abeja reina multicapa",
-        "medida_original": ""
+        "unitario": 4300
     },
     "abejareina2": {
         "codigo": "Abeja reina2",
@@ -15,9 +13,7 @@ const productos = {
         "imagen": "img/Abeja reina2.jpg",
         "tipo": "simple",
         "mayor": 2700,
-        "unitario": 3500,
-        "descripcion": "Abeja Reina Mdf 3 mm 23,6 cm",
-        "medida_original": "23,6 cm"
+        "unitario": 3500
     },
     "alebrije1": {
         "codigo": "alebrije1",
@@ -25,9 +21,7 @@ const productos = {
         "imagen": "img/alebrije1.jpg",
         "tipo": "simple",
         "mayor": 2200,
-        "unitario": 3000,
-        "descripcion": "Gato alebrije Mdf 3 mm 24.7 cm alto",
-        "medida_original": "24.7 cm alto"
+        "unitario": 3000
     },
     "alebrije2": {
         "codigo": "alebrije2",
@@ -35,9 +29,7 @@ const productos = {
         "imagen": "img/alebrije2.jpg",
         "tipo": "simple",
         "mayor": 2200,
-        "unitario": 3000,
-        "descripcion": "Perro alebrije Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 3000
     },
     "alicia3d": {
         "codigo": "Alicia3D",
@@ -45,9 +37,7 @@ const productos = {
         "imagen": "img/Alicia3D.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5700,
-        "descripcion": "Cuadro temático 3D inspirado en  Alicia en el país de las maravillas",
-        "medida_original": "20 X 16 cm"
+        "unitario": 5700
     },
     "altarvirgencita": {
         "codigo": "altarvirgencita",
@@ -55,9 +45,7 @@ const productos = {
         "imagen": "img/altarvirgencita.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 3400,
-        "descripcion": "",
-        "medida_original": "19 x 12 cm"
+        "unitario": 3400
     },
     "altar1": {
         "codigo": "Altar1",
@@ -65,9 +53,7 @@ const productos = {
         "imagen": "img/Altar1.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2500,
-        "descripcion": "",
-        "medida_original": "17 x 28 cm"
+        "unitario": 2500
     },
     "altar10": {
         "codigo": "altar10",
@@ -75,9 +61,7 @@ const productos = {
         "imagen": "img/altar10.jpg",
         "tipo": "simple",
         "mayor": 2200,
-        "unitario": 2900,
-        "descripcion": "Marco en M df de 5,5 mm y base en M Mdf 3 mm.",
-        "medida_original": "Medidas exterior 19x14 de alto. (medida interior 13x8) incluye el corazon con resplandor."
+        "unitario": 2900
     },
     "altar11": {
         "codigo": "Altar11",
@@ -85,9 +69,7 @@ const productos = {
         "imagen": "img/Altar11.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 3000,
-        "descripcion": "Mdf 5,5 mm",
-        "medida_original": "Medidas de 19 x 12 cm"
+        "unitario": 3000
     },
     "altar2": {
         "codigo": "Altar2",
@@ -95,9 +77,7 @@ const productos = {
         "imagen": "img/Altar2.jpg",
         "tipo": "simple",
         "mayor": 1900,
-        "unitario": 2500,
-        "descripcion": "",
-        "medida_original": "19 x 29 cm"
+        "unitario": 2500
     },
     "altar3": {
         "codigo": "Altar3",
@@ -105,9 +85,7 @@ const productos = {
         "imagen": "img/Altar3.jpg",
         "tipo": "simple",
         "mayor": 1900,
-        "unitario": 2500,
-        "descripcion": "",
-        "medida_original": "1 8 x 2 8 cm"
+        "unitario": 2500
     },
     "altar4": {
         "codigo": "Altar4",
@@ -115,9 +93,7 @@ const productos = {
         "imagen": "img/Altar4.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3500,
-        "descripcion": "Altar estilo barroco Mdf de 5,5 mm.",
-        "medida_original": "25 cm alto"
+        "unitario": 3500
     },
     "altar5": {
         "codigo": "Altar5",
@@ -125,9 +101,7 @@ const productos = {
         "imagen": "img/Altar5.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 3400,
-        "descripcion": "Mdf 5,5 mm",
-        "medida_original": "19 x 12 cm"
+        "unitario": 3400
     },
     "altar5simple": {
         "codigo": "Altar5 simple",
@@ -135,9 +109,7 @@ const productos = {
         "imagen": "img/Altar5 simple.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Mdf 5,5 mm",
-        "medida_original": "19 x 12 cm"
+        "unitario": 2800
     },
     "altar6": {
         "codigo": "Altar6",
@@ -145,9 +117,7 @@ const productos = {
         "imagen": "img/Altar6.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Mdf 5,5 mm",
-        "medida_original": "24 x 20 cm"
+        "unitario": 3800
     },
     "altar7": {
         "codigo": "altar7",
@@ -155,9 +125,7 @@ const productos = {
         "imagen": "img/altar7.jpg",
         "tipo": "simple",
         "mayor": 1600,
-        "unitario": 2400,
-        "descripcion": "Marco en Mdf de 5,5 mm y base en Mdf 3 mm. (medida interior 13x8)",
-        "medida_original": "19 x 1 4 cm"
+        "unitario": 2400
     },
     "altar8": {
         "codigo": "altar8",
@@ -165,9 +133,7 @@ const productos = {
         "imagen": "img/altar8.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 2600,
-        "descripcion": "Marco en Mdf de 5,5 mm y base en Mdf 3 mm. (medida interior 13x8) 14 x 24 cm",
-        "medida_original": "14 x 24 cm"
+        "unitario": 2600
     },
     "altar9": {
         "codigo": "altar9",
@@ -175,9 +141,7 @@ const productos = {
         "imagen": "img/altar9.jpg",
         "tipo": "simple",
         "mayor": 2800,
-        "unitario": 3600,
-        "descripcion": "",
-        "medida_original": "19 x 12 cm"
+        "unitario": 3600
     },
     "angel1": {
         "codigo": "angel1",
@@ -185,9 +149,7 @@ const productos = {
         "imagen": "img/angel1.jpg",
         "tipo": "simple",
         "mayor": 500,
-        "unitario": 600,
-        "descripcion": "Ángel colgante arpa Mdf 3 mm",
-        "medida_original": "9 cm"
+        "unitario": 600
     },
     "angel2": {
         "codigo": "angel2",
@@ -195,9 +157,7 @@ const productos = {
         "imagen": "img/angel2.jpg",
         "tipo": "simple",
         "mayor": 500,
-        "unitario": 600,
-        "descripcion": "Ángel colgante trompeta Mdf 3 mm",
-        "medida_original": "9 cm"
+        "unitario": 600
     },
     "angel3": {
         "codigo": "angel3",
@@ -205,9 +165,7 @@ const productos = {
         "imagen": "img/angel3.jpg",
         "tipo": "simple",
         "mayor": 900,
-        "unitario": 1200,
-        "descripcion": "Ángel colgante Mdf 3 mm",
-        "medida_original": "16 cm"
+        "unitario": 1200
     },
     "arabescofloral1": {
         "codigo": "Arabesco Floral1",
@@ -215,9 +173,7 @@ const productos = {
         "imagen": "img/Arabesco Floral1.jpg",
         "tipo": "simple",
         "mayor": 2700,
-        "unitario": 3500,
-        "descripcion": "Diseño ornamental de 7 capas Mdf 3 mm 25X17 cm",
-        "medida_original": "25X17 cm"
+        "unitario": 3500
     },
     "arboldenavidad": {
         "codigo": "Árbol de Navidad",
@@ -225,9 +181,7 @@ const productos = {
         "imagen": "img/Árbol de Navidad.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2600,
-        "descripcion": "Muñeco de nieve y arbol Mdf 3 mm 2 5 cm",
-        "medida_original": "2 5 cm"
+        "unitario": 2600
     },
     "arbolfamiliar": {
         "codigo": "Árbol Familiar",
@@ -235,9 +189,7 @@ const productos = {
         "imagen": "img/Árbol Familiar.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4500,
-        "descripcion": "Doble capa con 10 corazones y personalizado con apellidos.",
-        "medida_original": "30 cm"
+        "unitario": 4500
     },
     "arbolnavideno": {
         "codigo": "Árbol navideño",
@@ -245,9 +197,7 @@ const productos = {
         "imagen": "img/Árbol navideño.jpg",
         "tipo": "simple",
         "mayor": 2200,
-        "unitario": 2900,
-        "descripcion": "Árbol navideño",
-        "medida_original": "25 cm"
+        "unitario": 2900
     },
     "aroscalaca": {
         "codigo": "aroscalaca",
@@ -255,9 +205,7 @@ const productos = {
         "imagen": "img/aroscalaca.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros calaca",
-        "medida_original": "5 ,7 cm alto"
+        "unitario": 500
     },
     "arosfelino1": {
         "codigo": "arosfelino1",
@@ -265,9 +213,7 @@ const productos = {
         "imagen": "img/arosfelino1.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros Leopardo",
-        "medida_original": "5 cm alto"
+        "unitario": 500
     },
     "aros10": {
         "codigo": "aros10",
@@ -275,9 +221,7 @@ const productos = {
         "imagen": "img/aros10.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros2": {
         "codigo": "aros2",
@@ -285,9 +229,7 @@ const productos = {
         "imagen": "img/aros2.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros3": {
         "codigo": "aros3",
@@ -295,9 +237,7 @@ const productos = {
         "imagen": "img/aros3.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros4": {
         "codigo": "aros4",
@@ -305,9 +245,7 @@ const productos = {
         "imagen": "img/aros4.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros5": {
         "codigo": "aros5",
@@ -315,9 +253,7 @@ const productos = {
         "imagen": "img/aros5.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros6": {
         "codigo": "aros6",
@@ -325,9 +261,7 @@ const productos = {
         "imagen": "img/aros6.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros7": {
         "codigo": "aros7",
@@ -335,9 +269,7 @@ const productos = {
         "imagen": "img/aros7.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros8": {
         "codigo": "aros8",
@@ -345,9 +277,7 @@ const productos = {
         "imagen": "img/aros8.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aros9": {
         "codigo": "aros9",
@@ -355,9 +285,7 @@ const productos = {
         "imagen": "img/aros9.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "surtidos con aros sobre 20 unidades",
-        "medida_original": ""
+        "unitario": 500
     },
     "aroscora1": {
         "codigo": "aroscora1",
@@ -365,9 +293,7 @@ const productos = {
         "imagen": "img/aroscora1.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros corazón1",
-        "medida_original": "5 cm alto corazón"
+        "unitario": 500
     },
     "aroscora2": {
         "codigo": "aroscora2",
@@ -375,9 +301,7 @@ const productos = {
         "imagen": "img/aroscora2.jpg",
         "tipo": "simple",
         "mayor": 500,
-        "unitario": 500,
-        "descripcion": "Aros corazón2",
-        "medida_original": "5 cm alto corazón"
+        "unitario": 500
     },
     "aroscora3": {
         "codigo": "aroscora3",
@@ -385,9 +309,7 @@ const productos = {
         "imagen": "img/aroscora3.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros corazón3",
-        "medida_original": "5.5 cm ancho corazón"
+        "unitario": 500
     },
     "aroscora4": {
         "codigo": "aroscora4",
@@ -395,9 +317,7 @@ const productos = {
         "imagen": "img/aroscora4.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros corazón4",
-        "medida_original": "4.8 cm alto corazón"
+        "unitario": 500
     },
     "arosfrida": {
         "codigo": "arosfrida",
@@ -405,9 +325,7 @@ const productos = {
         "imagen": "img/arosfrida.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros Frida",
-        "medida_original": "4,7 cm diámetro"
+        "unitario": 500
     },
     "arosmarip": {
         "codigo": "arosmarip",
@@ -415,9 +333,7 @@ const productos = {
         "imagen": "img/arosmarip.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Aros mariposa",
-        "medida_original": "5 cm alto"
+        "unitario": 500
     },
     "banderin1": {
         "codigo": "Banderín1",
@@ -425,9 +341,7 @@ const productos = {
         "imagen": "img/Banderín1.jpg",
         "tipo": "simple",
         "mayor": 700,
-        "unitario": 900,
-        "descripcion": "Banderín Dos Puntas",
-        "medida_original": ""
+        "unitario": 900
     },
     "banderin2": {
         "codigo": "Banderin2",
@@ -435,9 +349,7 @@ const productos = {
         "imagen": "img/Banderin2.jpg",
         "tipo": "simple",
         "mayor": 600,
-        "unitario": 600,
-        "descripcion": "Banderín Triangular",
-        "medida_original": ""
+        "unitario": 600
     },
     "banderin3": {
         "codigo": "Banderín3",
@@ -445,9 +357,7 @@ const productos = {
         "imagen": "img/Banderín3.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 850,
-        "descripcion": "",
-        "medida_original": ""
+        "unitario": 850
     },
     "bc1": {
         "codigo": "BC1",
@@ -455,9 +365,7 @@ const productos = {
         "imagen": "img/BC1.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 1200,
-        "descripcion": "Base corazón de yeso 1 (NO incluye corazon de yeso)",
-        "medida_original": "20 cm"
+        "unitario": 1200
     },
     "bc2": {
         "codigo": "BC2",
@@ -465,9 +373,7 @@ const productos = {
         "imagen": "img/BC2.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 1200,
-        "descripcion": "Base corazón de yeso 2 (NO incluye corazon de yeso)",
-        "medida_original": "20 cm"
+        "unitario": 1200
     },
     "bc3": {
         "codigo": "BC3",
@@ -475,9 +381,7 @@ const productos = {
         "imagen": "img/BC3.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 1200,
-        "descripcion": "Base corazón de yeso 3 (NO incluye corazon de yeso)",
-        "medida_original": "20 cm"
+        "unitario": 1200
     },
     "bc4": {
         "codigo": "BC4",
@@ -485,9 +389,7 @@ const productos = {
         "imagen": "img/BC4.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 2300,
-        "descripcion": "Base para corazón de yeso o ziña Mdf 3 mm",
-        "medida_original": "31 cm"
+        "unitario": 2300
     },
     "bienve1": {
         "codigo": "Bienve1",
@@ -495,9 +397,7 @@ const productos = {
         "imagen": "img/Bienve1.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Bienvenido en capas",
-        "medida_original": "27,5 cm"
+        "unitario": 3800
     },
     "bienve2": {
         "codigo": "Bienve2",
@@ -505,9 +405,7 @@ const productos = {
         "imagen": "img/Bienve2.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Bienvenido Capas mar",
-        "medida_original": "27,5 cm"
+        "unitario": 3800
     },
     "bienve3": {
         "codigo": "Bienve3",
@@ -515,9 +413,7 @@ const productos = {
         "imagen": "img/Bienve3.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Bienvenido en capas bote",
-        "medida_original": "27 cm"
+        "unitario": 3800
     },
     "bienve4": {
         "codigo": "Bienve4",
@@ -525,9 +421,7 @@ const productos = {
         "imagen": "img/Bienve4.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Letrero Bienvenido farol",
-        "medida_original": "26.9 cm"
+        "unitario": 3800
     },
     "buzon": {
         "codigo": "Buzon",
@@ -535,9 +429,7 @@ const productos = {
         "imagen": "img/Buzon.jpg",
         "tipo": "simple",
         "mayor": 4000,
-        "unitario": 4700,
-        "descripcion": "buzón",
-        "medida_original": "22x18 cm"
+        "unitario": 4700
     },
     "buzonnavidad": {
         "codigo": "Buzón navidad",
@@ -545,9 +437,7 @@ const productos = {
         "imagen": "img/Buzón navidad.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4300,
-        "descripcion": "Buzón Navideño Mdf 3 mm 22 x 18 cm.",
-        "medida_original": "22 x 18 cm"
+        "unitario": 4300
     },
     "ca1": {
         "codigo": "CA1",
@@ -565,21 +455,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 1",
-        "medida_original": ""
+        ]
     },
     "ca120cm": {
         "parent": "ca1",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 1",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca130cm": {
         "parent": "ca1",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 1",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca10": {
         "codigo": "CA10",
@@ -597,21 +481,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4500
             }
-        ],
-        "descripcion": "Corazón alado 10",
-        "medida_original": ""
+        ]
     },
     "ca1020cm": {
         "parent": "ca10",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 10",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca1030cm": {
         "parent": "ca10",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 10",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca11trio": {
         "codigo": "CA11_TRIO",
@@ -619,9 +497,7 @@ const productos = {
         "imagen": "img/CA11.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1400,
-        "descripcion": "Trio mariposas mini imanes doble capa",
-        "medida_original": "6 cm"
+        "unitario": 1400
     },
     "ca12": {
         "codigo": "CA12",
@@ -639,21 +515,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 12 Mdf 5,5 mm",
-        "medida_original": ""
+        ]
     },
     "ca123mm": {
         "parent": "ca12",
-        "preselect": "3 mm",
-        "descripcion": "Corazón alado 12 Mdf 5,5 mm",
-        "medida_original": ""
+        "preselect": "3 mm"
     },
     "ca1255mm": {
         "parent": "ca12",
-        "preselect": "5.5 mm",
-        "descripcion": "Corazón alado 12 Mdf 5,5 mm",
-        "medida_original": ""
+        "preselect": "5.5 mm"
     },
     "ca13": {
         "codigo": "CA13",
@@ -671,21 +541,15 @@ const productos = {
                 "mayor": 3800,
                 "unitario": 4500
             }
-        ],
-        "descripcion": "Corazón base circular de 25 cm diámetro y corazón de 19.8 cm ancho de 4 capas. Incluye atril. Mdf 5,5 mm .",
-        "medida_original": ""
+        ]
     },
     "ca133mm": {
         "parent": "ca13",
-        "preselect": "3 mm",
-        "descripcion": "Corazón base circular de 25 cm diámetro y corazón de 19.8 cm ancho de 4 capas. Incluye atril. Mdf 5,5 mm .",
-        "medida_original": ""
+        "preselect": "3 mm"
     },
     "ca1355mm": {
         "parent": "ca13",
-        "preselect": "5.5 mm",
-        "descripcion": "Corazón base circular de 25 cm diámetro y corazón de 19.8 cm ancho de 4 capas. Incluye atril. Mdf 5,5 mm .",
-        "medida_original": ""
+        "preselect": "5.5 mm"
     },
     "ca14": {
         "codigo": "CA14",
@@ -693,9 +557,7 @@ const productos = {
         "imagen": "img/CA14.jpg",
         "tipo": "simple",
         "mayor": 4000,
-        "unitario": 4800,
-        "descripcion": "Corazón Alado con marco de 25x31 cm. en Mdf de 5,5 mm y corazón alado de 3 capas, de 16x20 cm, Mdf 5,5 y 3 mm con cerrojo, llave, brújula y engranajes.",
-        "medida_original": ""
+        "unitario": 4800
     },
     "ca15": {
         "codigo": "CA15",
@@ -703,9 +565,7 @@ const productos = {
         "imagen": "img/CA15.jpg",
         "tipo": "simple",
         "mayor": 3900,
-        "unitario": 4600,
-        "descripcion": "Corazón alado Mdf 5,5 mm 31 cm Ancho",
-        "medida_original": "31 cm Ancho"
+        "unitario": 4600
     },
     "ca16": {
         "codigo": "CA16",
@@ -723,21 +583,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 6 capas",
-        "medida_original": ""
+        ]
     },
     "ca1620cm": {
         "parent": "ca16",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 6 capas",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca1630cm": {
         "parent": "ca16",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 6 capas",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca17": {
         "codigo": "CA17",
@@ -755,21 +609,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado  5 capas",
-        "medida_original": ""
+        ]
     },
     "ca1720cm": {
         "parent": "ca17",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado  5 capas",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca1730cm": {
         "parent": "ca17",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado  5 capas",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca18": {
         "codigo": "CA18",
@@ -777,9 +625,7 @@ const productos = {
         "imagen": "img/CA18.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5600,
-        "descripcion": "Corazón alado 4 capas en Mdf 5,5mm.",
-        "medida_original": "42 cm"
+        "unitario": 5600
     },
     "ca2": {
         "codigo": "CA2",
@@ -797,21 +643,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 2",
-        "medida_original": ""
+        ]
     },
     "ca220cm": {
         "parent": "ca2",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 2",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca230cm": {
         "parent": "ca2",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 2",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca4": {
         "codigo": "CA4",
@@ -829,21 +669,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 4",
-        "medida_original": ""
+        ]
     },
     "ca420cm": {
         "parent": "ca4",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 4",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca430cm": {
         "parent": "ca4",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 4",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca5": {
         "codigo": "CA5",
@@ -861,21 +695,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 5",
-        "medida_original": ""
+        ]
     },
     "ca520cm": {
         "parent": "ca5",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 5",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca530cm": {
         "parent": "ca5",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 5",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca6": {
         "codigo": "CA6",
@@ -893,21 +721,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 3800
             }
-        ],
-        "descripcion": "Corazón alado 6",
-        "medida_original": ""
+        ]
     },
     "ca620cm": {
         "parent": "ca6",
-        "preselect": "20 cm",
-        "descripcion": "Corazón alado 6",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "ca630cm": {
         "parent": "ca6",
-        "preselect": "30 cm",
-        "descripcion": "Corazón alado 6",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "ca7": {
         "codigo": "CA7",
@@ -915,9 +737,7 @@ const productos = {
         "imagen": "img/CA7.jpg",
         "tipo": "simple",
         "mayor": 5700,
-        "unitario": 6500,
-        "descripcion": "Corazón alado 7",
-        "medida_original": "de 60x47 cm"
+        "unitario": 6500
     },
     "ca8": {
         "codigo": "CA8",
@@ -925,9 +745,7 @@ const productos = {
         "imagen": "img/CA8.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 6000,
-        "descripcion": "Corazón alado 8",
-        "medida_original": "59,5x 36 cm"
+        "unitario": 6000
     },
     "ca9trio": {
         "codigo": "CA9__TRIO",
@@ -935,9 +753,7 @@ const productos = {
         "imagen": "img/CA9.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 2400,
-        "descripcion": "Trio mariposas",
-        "medida_original": "20 cm"
+        "unitario": 2400
     },
     "caballodemar": {
         "codigo": "Caballodemar",
@@ -945,9 +761,7 @@ const productos = {
         "imagen": "img/Caballodemar.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Cuadro caballito de mar",
-        "medida_original": "27 cm alto"
+        "unitario": 2800
     },
     "caballomecedor": {
         "codigo": "Caballo mecedor",
@@ -955,9 +769,7 @@ const productos = {
         "imagen": "img/Caballo mecedor.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 4000,
-        "descripcion": "Caballo mecedor mdf de 12mm",
-        "medida_original": "16 cm"
+        "unitario": 4000
     },
     "caballovintage": {
         "codigo": "Caballo Vintage",
@@ -965,9 +777,7 @@ const productos = {
         "imagen": "img/Caballo Vintage.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5800,
-        "descripcion": "Caballo mecedor mdf de 12mm",
-        "medida_original": "24 cm"
+        "unitario": 5800
     },
     "cajagrinch": {
         "codigo": "Caja grinch",
@@ -975,9 +785,7 @@ const productos = {
         "imagen": "img/Caja grinch.jpg",
         "tipo": "simple",
         "mayor": 1400,
-        "unitario": 1800,
-        "descripcion": "Caja tematica Grinch Mdf 3 mm Medida Interior de 10 x 10 cm",
-        "medida_original": "Medida Interior de 10 x 10 cm"
+        "unitario": 1800
     },
     "cajasanta": {
         "codigo": "Caja santa",
@@ -985,9 +793,7 @@ const productos = {
         "imagen": "img/Caja santa.jpg",
         "tipo": "simple",
         "mayor": 1300,
-        "unitario": 1600,
-        "descripcion": "Caja tematica Santa Clauss Mdf 3 mm Medida Interior de 10 x 10 cm",
-        "medida_original": "Medida Interior de 10 x 10 cm"
+        "unitario": 1600
     },
     "cal1": {
         "codigo": "CAL1",
@@ -995,9 +801,7 @@ const productos = {
         "imagen": "img/CAL1.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2500,
-        "descripcion": "Calaca Multicapa1",
-        "medida_original": "20 cm"
+        "unitario": 2500
     },
     "cal2": {
         "codigo": "CAL2",
@@ -1005,9 +809,7 @@ const productos = {
         "imagen": "img/CAL2.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2500,
-        "descripcion": "Calaca Multicapa2",
-        "medida_original": "20 cm"
+        "unitario": 2500
     },
     "cal3": {
         "codigo": "CAL3",
@@ -1015,9 +817,7 @@ const productos = {
         "imagen": "img/CAL3.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1500,
-        "descripcion": "Calaca Multicapa3",
-        "medida_original": "20 cm"
+        "unitario": 1500
     },
     "carrusel": {
         "codigo": "Carrusel",
@@ -1025,9 +825,7 @@ const productos = {
         "imagen": "img/Carrusel.jpg",
         "tipo": "simple",
         "mayor": 6500,
-        "unitario": 7300,
-        "descripcion": "Carrusel",
-        "medida_original": "24 cm alto y 19 cm diametro"
+        "unitario": 7300
     },
     "carruselnavideno": {
         "codigo": "Carrusel Navideño",
@@ -1035,9 +833,7 @@ const productos = {
         "imagen": "img/Carrusel Navideño.jpg",
         "tipo": "simple",
         "mayor": 6500,
-        "unitario": 7300,
-        "descripcion": "Carrusel de renos Mdf 3mm 2 4 x 18 cm",
-        "medida_original": "2 4 x 18 cm"
+        "unitario": 7300
     },
     "casademunecas1": {
         "codigo": "Casa de Muñecas1",
@@ -1045,9 +841,7 @@ const productos = {
         "imagen": "img/Casa de Muñecas1.jpg",
         "tipo": "simple",
         "mayor": 13000,
-        "unitario": 13000,
-        "descripcion": "Casa de muñecas Grande Mdf 3 mm y base 5,5 mm 37 x 36 cm",
-        "medida_original": "37 x 36 cm"
+        "unitario": 13000
     },
     "cascanueces": {
         "codigo": "Cascanueces",
@@ -1055,9 +849,7 @@ const productos = {
         "imagen": "img/Cascanueces.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2600,
-        "descripcion": "Cascanueces en capas, con base.",
-        "medida_original": "20 cm"
+        "unitario": 2600
     },
     "cascanuecescapas": {
         "codigo": "cascanueces capas",
@@ -1065,9 +857,7 @@ const productos = {
         "imagen": "img/cascanueces capas.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Retrato cascanueces Mdf 3 mm",
-        "medida_original": "30 cm"
+        "unitario": 3800
     },
     "casitamunecas2": {
         "codigo": "Casita Muñecas2",
@@ -1075,9 +865,7 @@ const productos = {
         "imagen": "img/Casita Muñecas2.jpg",
         "tipo": "simple",
         "mayor": 7000,
-        "unitario": 7500,
-        "descripcion": "Casita simple Mdf 3 mm 38,5 cm",
-        "medida_original": "38,5 cm"
+        "unitario": 7500
     },
     "catrina1": {
         "codigo": "Catrina1",
@@ -1085,9 +873,7 @@ const productos = {
         "imagen": "img/Catrina1.jpg",
         "tipo": "simple",
         "mayor": 3200,
-        "unitario": 4100,
-        "descripcion": "Composición catrina 1",
-        "medida_original": "35 cm alto"
+        "unitario": 4100
     },
     "catrina2": {
         "codigo": "CAtrina2",
@@ -1095,9 +881,7 @@ const productos = {
         "imagen": "img/CAtrina2.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4200,
-        "descripcion": "Composición catrina 2",
-        "medida_original": "34 cm de alto"
+        "unitario": 4200
     },
     "chinita": {
         "codigo": "Chinita",
@@ -1105,9 +889,7 @@ const productos = {
         "imagen": "img/Chinita.jpg",
         "tipo": "simple",
         "mayor": 4500,
-        "unitario": 5300,
-        "descripcion": "Chinita multicapa M Mdf 5,5 mm",
-        "medida_original": "24 cm"
+        "unitario": 5300
     },
     "circo": {
         "codigo": "Circo",
@@ -1115,9 +897,7 @@ const productos = {
         "imagen": "img/Circo.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "Cuadro temático de circo itinerante",
-        "medida_original": ""
+        "unitario": 5800
     },
     "co1": {
         "codigo": "CO1",
@@ -1135,21 +915,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 5000
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co120cm": {
         "parent": "co1",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co130cm": {
         "parent": "co1",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co10": {
         "codigo": "CO10",
@@ -1167,21 +941,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co1020cm": {
         "parent": "co10",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co1030cm": {
         "parent": "co10",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co11": {
         "codigo": "CO11",
@@ -1189,9 +957,7 @@ const productos = {
         "imagen": "img/CO11.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1800,
-        "descripcion": "Corazón 2 capas Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 1800
     },
     "co12": {
         "codigo": "CO12",
@@ -1209,21 +975,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co1220cm": {
         "parent": "co12",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co1230cm": {
         "parent": "co12",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co13": {
         "codigo": "CO13",
@@ -1231,9 +991,7 @@ const productos = {
         "imagen": "img/CO13.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1800,
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 1800
     },
     "co14": {
         "codigo": "CO14",
@@ -1241,9 +999,7 @@ const productos = {
         "imagen": "img/CO14.jpg",
         "tipo": "simple",
         "mayor": 900,
-        "unitario": 1500,
-        "descripcion": "Trio corazones grabados 1 capa Mdf 3 mm",
-        "medida_original": "16 cm"
+        "unitario": 1500
     },
     "co15": {
         "codigo": "CO15",
@@ -1261,21 +1017,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co1520cm": {
         "parent": "co15",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co1530cm": {
         "parent": "co15",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co16": {
         "codigo": "CO16",
@@ -1283,9 +1033,7 @@ const productos = {
         "imagen": "img/CO16.jpg",
         "tipo": "simple",
         "mayor": 2800,
-        "unitario": 3500,
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": "25 cm"
+        "unitario": 3500
     },
     "co17": {
         "codigo": "CO17",
@@ -1303,21 +1051,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm 2 0 cm.",
-        "medida_original": ""
+        ]
     },
     "co1720cm": {
         "parent": "co17",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm 2 0 cm.",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co1730cm": {
         "parent": "co17",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm 2 0 cm.",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co18": {
         "codigo": "CO18",
@@ -1325,9 +1067,7 @@ const productos = {
         "imagen": "img/CO18.jpg",
         "tipo": "simple",
         "mayor": 550,
-        "unitario": 550,
-        "descripcion": "Corazón Mdf 3 mm",
-        "medida_original": "15 cm"
+        "unitario": 550
     },
     "co19": {
         "codigo": "CO19",
@@ -1335,9 +1075,7 @@ const productos = {
         "imagen": "img/CO19.jpg",
         "tipo": "simple",
         "mayor": 600,
-        "unitario": 600,
-        "descripcion": "Corazón envejecido3 Mdf 3 mm",
-        "medida_original": "15 cm"
+        "unitario": 600
     },
     "co2": {
         "codigo": "CO2",
@@ -1355,21 +1093,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4500
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co220cm": {
         "parent": "co2",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co230cm": {
         "parent": "co2",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co20": {
         "codigo": "CO20",
@@ -1377,9 +1109,7 @@ const productos = {
         "imagen": "img/CO20.jpg",
         "tipo": "simple",
         "mayor": 600,
-        "unitario": 600,
-        "descripcion": "Corazón envejecido Mdf 3 mm",
-        "medida_original": "15 cm"
+        "unitario": 600
     },
     "co21": {
         "codigo": "CO21",
@@ -1387,9 +1117,7 @@ const productos = {
         "imagen": "img/CO21.jpg",
         "tipo": "simple",
         "mayor": 600,
-        "unitario": 600,
-        "descripcion": "Corazón envejecido2 Mdf 3 mm",
-        "medida_original": "15 cm"
+        "unitario": 600
     },
     "co22": {
         "codigo": "CO22",
@@ -1397,9 +1125,7 @@ const productos = {
         "imagen": "img/CO22.jpg",
         "tipo": "simple",
         "mayor": 4000,
-        "unitario": 4000,
-        "descripcion": "Trío de Corazones Mdf 3 mm",
-        "medida_original": "15 cm"
+        "unitario": 4000
     },
     "co23": {
         "codigo": "CO23",
@@ -1407,9 +1133,7 @@ const productos = {
         "imagen": "img/CO23.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 4 Corazones doble capa Mini . Mdf 3 mm 5 a 6 cm",
-        "medida_original": "5 a 6 cm"
+        "unitario": 1500
     },
     "co24": {
         "codigo": "CO24",
@@ -1427,21 +1151,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co2420cm": {
         "parent": "co24",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co2430cm": {
         "parent": "co24",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co25": {
         "codigo": "CO25",
@@ -1459,21 +1177,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co2520cm": {
         "parent": "co25",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co2530cm": {
         "parent": "co25",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co26": {
         "codigo": "Co26",
@@ -1481,9 +1193,7 @@ const productos = {
         "imagen": "img/Co26.jpg",
         "tipo": "simple",
         "mayor": 5500,
-        "unitario": 5500,
-        "descripcion": "Trío de Corazones Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 5500
     },
     "co27": {
         "codigo": "CO27",
@@ -1501,21 +1211,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4500
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co2720cm": {
         "parent": "co27",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co2730cm": {
         "parent": "co27",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co28": {
         "codigo": "Co28",
@@ -1523,9 +1227,7 @@ const productos = {
         "imagen": "img/Co28.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1800,
-        "descripcion": "Corazón con Base circular mini. (se venden por separado) Mdf 3 mm",
-        "medida_original": "Base de 12 cm de diámetro - Corazón de 7 cm de alto."
+        "unitario": 1800
     },
     "co29": {
         "codigo": "Co29",
@@ -1543,21 +1245,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co2920cm": {
         "parent": "co29",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co2930cm": {
         "parent": "co29",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co3": {
         "codigo": "CO3",
@@ -1565,9 +1261,7 @@ const productos = {
         "imagen": "img/CO3.jpg",
         "tipo": "simple",
         "mayor": 1300,
-        "unitario": 1900,
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 1900
     },
     "co30": {
         "codigo": "Co30",
@@ -1575,9 +1269,7 @@ const productos = {
         "imagen": "img/Co30.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Corazón 4 capas Mdf 5,5 mm",
-        "medida_original": "24 cm"
+        "unitario": 4300
     },
     "co31": {
         "codigo": "Co31",
@@ -1585,9 +1277,7 @@ const productos = {
         "imagen": "img/Co31.jpg",
         "tipo": "simple",
         "mayor": 2800,
-        "unitario": 3500,
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": "2 7 cm"
+        "unitario": 3500
     },
     "co32": {
         "codigo": "Co32",
@@ -1595,9 +1285,7 @@ const productos = {
         "imagen": "img/Co32.jpg",
         "tipo": "simple",
         "mayor": 2800,
-        "unitario": 3500,
-        "descripcion": "Base corazón 4 capas Mdf 3 mm",
-        "medida_original": "31 cm"
+        "unitario": 3500
     },
     "co33": {
         "codigo": "CO33",
@@ -1615,21 +1303,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 6 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co3320cm": {
         "parent": "co33",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 6 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co3330cm": {
         "parent": "co33",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 6 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co34": {
         "codigo": "Co34",
@@ -1647,21 +1329,15 @@ const productos = {
                 "mayor": 3500,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co3420cm": {
         "parent": "co34",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co3430cm": {
         "parent": "co34",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co36": {
         "codigo": "CO36",
@@ -1679,21 +1355,15 @@ const productos = {
                 "mayor": 3300,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Flor de 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co3620cm": {
         "parent": "co36",
-        "preselect": "20 cm",
-        "descripcion": "Flor de 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co3630cm": {
         "parent": "co36",
-        "preselect": "30 cm",
-        "descripcion": "Flor de 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co37": {
         "codigo": "CO37",
@@ -1701,9 +1371,7 @@ const productos = {
         "imagen": "img/CO37.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Trío  de corazones mini. Doble capa",
-        "medida_original": "8 cm Aprox"
+        "unitario": 1500
     },
     "co4": {
         "codigo": "CO4",
@@ -1721,21 +1389,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co420cm": {
         "parent": "co4",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co430cm": {
         "parent": "co4",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co5": {
         "codigo": "CO5",
@@ -1753,21 +1415,15 @@ const productos = {
                 "mayor": 3300,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 4 Capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co520cm": {
         "parent": "co5",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 Capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co530cm": {
         "parent": "co5",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 Capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co6": {
         "codigo": "CO6",
@@ -1785,21 +1441,15 @@ const productos = {
                 "mayor": 3300,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co620cm": {
         "parent": "co6",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co630cm": {
         "parent": "co6",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co7": {
         "codigo": "CO7",
@@ -1817,21 +1467,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co720cm": {
         "parent": "co7",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co730cm": {
         "parent": "co7",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 3 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co8": {
         "codigo": "CO8",
@@ -1849,21 +1493,15 @@ const productos = {
                 "mayor": 3300,
                 "unitario": 4300
             }
-        ],
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co820cm": {
         "parent": "co8",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co830cm": {
         "parent": "co8",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 4 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "co9": {
         "codigo": "CO9",
@@ -1881,21 +1519,15 @@ const productos = {
                 "mayor": 3000,
                 "unitario": 4000
             }
-        ],
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        ]
     },
     "co920cm": {
         "parent": "co9",
-        "preselect": "20 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "20 cm"
     },
     "co930cm": {
         "parent": "co9",
-        "preselect": "30 cm",
-        "descripcion": "Corazón 5 capas Mdf 3 mm",
-        "medida_original": ""
+        "preselect": "30 cm"
     },
     "colganteangelcorazon": {
         "codigo": "colgante angel corazón",
@@ -1903,9 +1535,7 @@ const productos = {
         "imagen": "img/colgante angel corazón.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Ángel colgante corazón",
-        "medida_original": "9 cm"
+        "unitario": 500
     },
     "colganteangelestrella": {
         "codigo": "colgante angel estrella",
@@ -1913,9 +1543,7 @@ const productos = {
         "imagen": "img/colgante angel estrella.jpg",
         "tipo": "simple",
         "mayor": 400,
-        "unitario": 500,
-        "descripcion": "Ángel colgante estrella",
-        "medida_original": "9 cm"
+        "unitario": 500
     },
     "colgantecaballito": {
         "codigo": "colgante caballito",
@@ -1923,9 +1551,7 @@ const productos = {
         "imagen": "img/colgante caballito.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 500,
-        "descripcion": "Caballito mecedor colgante Mdf 3 mm",
-        "medida_original": "9 cm"
+        "unitario": 500
     },
     "colgantedecorativo1": {
         "codigo": "Colgante Decorativo1",
@@ -1933,9 +1559,7 @@ const productos = {
         "imagen": "img/Colgante Decorativo1.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2500,
-        "descripcion": "Pajaro colgante Mdf 5,5 mm.",
-        "medida_original": ""
+        "unitario": 2500
     },
     "colgante1": {
         "codigo": "colgante1",
@@ -1943,9 +1567,7 @@ const productos = {
         "imagen": "img/colgante1.jpg",
         "tipo": "simple",
         "mayor": 650,
-        "unitario": 650,
-        "descripcion": "Colgantes para Collar",
-        "medida_original": ""
+        "unitario": 650
     },
     "colgante2": {
         "codigo": "colgante2",
@@ -1953,9 +1575,7 @@ const productos = {
         "imagen": "img/colgante2.jpg",
         "tipo": "simple",
         "mayor": 650,
-        "unitario": 650,
-        "descripcion": "Colgantes para Collar",
-        "medida_original": ""
+        "unitario": 650
     },
     "colgante3": {
         "codigo": "colgante3",
@@ -1963,9 +1583,7 @@ const productos = {
         "imagen": "img/colgante3.jpg",
         "tipo": "simple",
         "mayor": 700,
-        "unitario": 700,
-        "descripcion": "Colgantes para Collar",
-        "medida_original": ""
+        "unitario": 700
     },
     "colgante4": {
         "codigo": "colgante4",
@@ -1973,9 +1591,7 @@ const productos = {
         "imagen": "img/colgante4.jpg",
         "tipo": "simple",
         "mayor": 700,
-        "unitario": 700,
-        "descripcion": "Colgantes para Collar",
-        "medida_original": ""
+        "unitario": 700
     },
     "colibri": {
         "codigo": "Colibrí",
@@ -1983,9 +1599,7 @@ const productos = {
         "imagen": "img/Colibrí.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Trio de Colibrí",
-        "medida_original": "10 cm"
+        "unitario": 1000
     },
     "colibricapas": {
         "codigo": "Colibrí capas",
@@ -1993,9 +1607,7 @@ const productos = {
         "imagen": "img/Colibrí capas.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Colibrí en doble capa",
-        "medida_original": "20 cm"
+        "unitario": 2800
     },
     "colibrigrabado": {
         "codigo": "Colibrí grabado",
@@ -2003,9 +1615,7 @@ const productos = {
         "imagen": "img/Colibrí grabado.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 3000,
-        "descripcion": "Colibri grabado Mdf 5,5 mm 26,7 cm alto",
-        "medida_original": "26,7 cm alto"
+        "unitario": 3000
     },
     "comp1": {
         "codigo": "COMP1",
@@ -2013,9 +1623,7 @@ const productos = {
         "imagen": "img/COMP1.jpg",
         "tipo": "simple",
         "mayor": 3200,
-        "unitario": 4100,
-        "descripcion": "Composición colibri",
-        "medida_original": "28 cm Diámetr o"
+        "unitario": 4100
     },
     "comp2": {
         "codigo": "COMP2",
@@ -2023,9 +1631,7 @@ const productos = {
         "imagen": "img/COMP2.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4200,
-        "descripcion": "Composición libelula",
-        "medida_original": "28 cm Di á metro"
+        "unitario": 4200
     },
     "comp3": {
         "codigo": "COMP3",
@@ -2033,9 +1639,7 @@ const productos = {
         "imagen": "img/COMP3.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4200,
-        "descripcion": "Composición 3d",
-        "medida_original": "30 cm Di á metro"
+        "unitario": 4200
     },
     "comp4": {
         "codigo": "Comp4",
@@ -2043,9 +1647,7 @@ const productos = {
         "imagen": "img/Comp4.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Composición 4 Colibrí en capas, con base circular Mdf 3mm",
-        "medida_original": "24 cm"
+        "unitario": 4200
     },
     "comp5": {
         "codigo": "Comp5",
@@ -2053,9 +1655,7 @@ const productos = {
         "imagen": "img/Comp5.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Composición 5 Corona y base circular Mdf 3mm",
-        "medida_original": "24 cm"
+        "unitario": 4200
     },
     "comp6": {
         "codigo": "Comp6",
@@ -2063,9 +1663,7 @@ const productos = {
         "imagen": "img/Comp6.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4600,
-        "descripcion": "Composición 6 Mdf 3mm",
-        "medida_original": "30 cm"
+        "unitario": 4600
     },
     "comp7": {
         "codigo": "Comp7",
@@ -2073,9 +1671,7 @@ const productos = {
         "imagen": "img/Comp7.jpg",
         "tipo": "simple",
         "mayor": 3600,
-        "unitario": 4500,
-        "descripcion": "Composición 7 Mdf 3mm",
-        "medida_original": "29 cm"
+        "unitario": 4500
     },
     "comp8": {
         "codigo": "Comp8",
@@ -2083,9 +1679,7 @@ const productos = {
         "imagen": "img/Comp8.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4600,
-        "descripcion": "Composición 8 Mdf 3 mm Base 26 cm diámetro Sirena",
-        "medida_original": "28 cm"
+        "unitario": 4600
     },
     "copos": {
         "codigo": "copos",
@@ -2093,9 +1687,7 @@ const productos = {
         "imagen": "img/copos.jpg",
         "tipo": "simple",
         "mayor": 180,
-        "unitario": 180,
-        "descripcion": "Juego de copos de nieve Mdf 3 mm 4,5 cm",
-        "medida_original": "4,5 cm"
+        "unitario": 180
     },
     "corarelicario": {
         "codigo": "Cora relicario",
@@ -2103,9 +1695,7 @@ const productos = {
         "imagen": "img/Cora relicario.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 3200,
-        "descripcion": "Porta fotos Mdf de 5,5. Base, corazón y detalles en Mdf de 3 mm 21 x 14.8 cm",
-        "medida_original": "21 x 14.8 cm"
+        "unitario": 3200
     },
     "coronacasa": {
         "codigo": "Corona Casa",
@@ -2113,9 +1703,7 @@ const productos = {
         "imagen": "img/Corona Casa.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4000,
-        "descripcion": "Corona casita en capas",
-        "medida_original": "31 cm"
+        "unitario": 4000
     },
     "coronacascanueces": {
         "codigo": "Corona Cascanueces",
@@ -2123,9 +1711,7 @@ const productos = {
         "imagen": "img/Corona Cascanueces.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 3300,
-        "descripcion": "Corona cascanueces en capas",
-        "medida_original": "23 cm"
+        "unitario": 3300
     },
     "coronaespecial": {
         "codigo": "Corona Especial",
@@ -2133,9 +1719,7 @@ const productos = {
         "imagen": "img/Corona Especial.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Corona en capas navidad",
-        "medida_original": "30 cm de Diámetro"
+        "unitario": 4200
     },
     "coronaosito": {
         "codigo": "Corona Osito",
@@ -2143,9 +1727,7 @@ const productos = {
         "imagen": "img/Corona Osito.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 3300,
-        "descripcion": "cuadro/corona en capas",
-        "medida_original": "23 cm alto"
+        "unitario": 3300
     },
     "coronapascua1": {
         "codigo": "CORONA_PASCUA1",
@@ -2153,9 +1735,7 @@ const productos = {
         "imagen": "img/CORONA_PASCUA1.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "",
-        "medida_original": ""
+        "unitario": 3800
     },
     "coronareno": {
         "codigo": "Corona Reno",
@@ -2163,9 +1743,7 @@ const productos = {
         "imagen": "img/Corona  Reno.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 3300,
-        "descripcion": "Corona Reno en capas",
-        "medida_original": "23 cm"
+        "unitario": 3300
     },
     "coronasimple": {
         "codigo": "Corona Simple",
@@ -2173,9 +1751,7 @@ const productos = {
         "imagen": "img/Corona Simple.jpg",
         "tipo": "simple",
         "mayor": 3100,
-        "unitario": 3900,
-        "descripcion": "Corona campanas en capas",
-        "medida_original": "3 1 cm"
+        "unitario": 3900
     },
     "coronasimple2": {
         "codigo": "Corona Simple2",
@@ -2183,9 +1759,7 @@ const productos = {
         "imagen": "img/Corona Simple2.jpg",
         "tipo": "simple",
         "mayor": 3100,
-        "unitario": 3900,
-        "descripcion": "Corona rosa en capas",
-        "medida_original": "3 1 cm"
+        "unitario": 3900
     },
     "coronavillanavidena": {
         "codigo": "Corona Villa Navideña",
@@ -2193,9 +1767,7 @@ const productos = {
         "imagen": "img/Corona Villa Navideña.jpg",
         "tipo": "simple",
         "mayor": 2900,
-        "unitario": 3600,
-        "descripcion": "Corona casas en capas",
-        "medida_original": "3 0 cm"
+        "unitario": 3600
     },
     "cruz1": {
         "codigo": "Cruz1",
@@ -2203,9 +1775,7 @@ const productos = {
         "imagen": "img/Cruz1.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "C ruz flor 5 capas Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 2800
     },
     "cruz2": {
         "codigo": "Cruz2",
@@ -2213,9 +1783,7 @@ const productos = {
         "imagen": "img/Cruz2.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Cruz Corazón 5 capas Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 2800
     },
     "cuadrocarrusel": {
         "codigo": "Cuadro carrusel",
@@ -2223,9 +1791,7 @@ const productos = {
         "imagen": "img/Cuadro carrusel.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 3000,
-        "descripcion": "Cuadro Carrusel vintage",
-        "medida_original": "2 6 cm"
+        "unitario": 3000
     },
     "cuadronavideno": {
         "codigo": "Cuadro Navideño",
@@ -2233,9 +1799,7 @@ const productos = {
         "imagen": "img/Cuadro Navideño.jpg",
         "tipo": "simple",
         "mayor": 4900,
-        "unitario": 5800,
-        "descripcion": "Cuadro cascanueces Mdf 3 mm 23 x 18 cm",
-        "medida_original": "23 x 18 cm"
+        "unitario": 5800
     },
     "cuadronoel": {
         "codigo": "Cuadro Noel",
@@ -2243,9 +1807,7 @@ const productos = {
         "imagen": "img/Cuadro Noel.jpg",
         "tipo": "simple",
         "mayor": 4900,
-        "unitario": 5800,
-        "descripcion": "Cuadro papá Noel Mdf 3 mm 23 x 18 cm",
-        "medida_original": "23 x 18 cm"
+        "unitario": 5800
     },
     "cuadroc1": {
         "codigo": "Cuadroc1",
@@ -2253,9 +1815,7 @@ const productos = {
         "imagen": "img/Cuadroc1.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Cuadro Cocina tenedor",
-        "medida_original": "29 cm alto"
+        "unitario": 4300
     },
     "cuadroc2": {
         "codigo": "Cuadroc2",
@@ -2263,9 +1823,7 @@ const productos = {
         "imagen": "img/Cuadroc2.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Cuadro Cocina cuchillo",
-        "medida_original": "29 cm alto"
+        "unitario": 4300
     },
     "cuadroc3": {
         "codigo": "Cuadroc3",
@@ -2273,9 +1831,7 @@ const productos = {
         "imagen": "img/Cuadroc3.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Cuadro Cocina cuchara",
-        "medida_original": "29 cm alto"
+        "unitario": 4300
     },
     "cuadroc4": {
         "codigo": "Cuadroc4",
@@ -2283,9 +1839,7 @@ const productos = {
         "imagen": "img/Cuadroc4.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4600,
-        "descripcion": "Cuadro cocina cubiertos",
-        "medida_original": "29 cm alto"
+        "unitario": 4600
     },
     "decobanderin": {
         "codigo": "Decobanderin",
@@ -2293,9 +1847,7 @@ const productos = {
         "imagen": "img/Decobanderin.jpg",
         "tipo": "simple",
         "mayor": 250,
-        "unitario": 250,
-        "descripcion": "",
-        "medida_original": "5 x 6 cm"
+        "unitario": 250
     },
     "decoinantil1": {
         "codigo": "Deco inantil1",
@@ -2303,9 +1855,7 @@ const productos = {
         "imagen": "img/Deco inantil1.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3700,
-        "descripcion": "Letrero puerta 1 (Personaliza con tu nombre) Mdf 3mm",
-        "medida_original": "28 cm"
+        "unitario": 3700
     },
     "decoinfantil2": {
         "codigo": "Deco infantil2",
@@ -2313,9 +1863,7 @@ const productos = {
         "imagen": "img/Deco infantil2.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3700,
-        "descripcion": "Letrero puerta 2 (Personaliza con tu nombre) Mdf 3mm",
-        "medida_original": "28 cm"
+        "unitario": 3700
     },
     "decoinantil3": {
         "codigo": "Deco inantil3",
@@ -2323,9 +1871,7 @@ const productos = {
         "imagen": "img/Deco inantil3.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3700,
-        "descripcion": "Letrero puerta 3 (Personaliza con tu nombre) Mdf 3mm",
-        "medida_original": "28 cm"
+        "unitario": 3700
     },
     "decoinantil4": {
         "codigo": "Deco inantil4",
@@ -2333,9 +1879,7 @@ const productos = {
         "imagen": "img/Deco inantil4.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3700,
-        "descripcion": "Letrero puerta 4 (Personaliza con tu nombre) Mdf 3mm",
-        "medida_original": "28 cm"
+        "unitario": 3700
     },
     "duodeangeles": {
         "codigo": "dúo de angeles",
@@ -2343,9 +1887,7 @@ const productos = {
         "imagen": "img/dúo de angeles.jpg",
         "tipo": "simple",
         "mayor": 3600,
-        "unitario": 4300,
-        "descripcion": "Dúo de ángeles con base Mdf 5,5 mm 23 y 22 cm",
-        "medida_original": "23 y 22 cm"
+        "unitario": 4300
     },
     "eclipse1": {
         "codigo": "Eclipse 1",
@@ -2353,9 +1895,7 @@ const productos = {
         "imagen": "img/Eclipse 1.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1500,
-        "descripcion": "Eclipse de 2 capas Mdf 3mm",
-        "medida_original": "17 cm"
+        "unitario": 1500
     },
     "eclipse2": {
         "codigo": "Eclipse2",
@@ -2363,9 +1903,7 @@ const productos = {
         "imagen": "img/Eclipse2.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1500,
-        "descripcion": "Eclipse de 2 capas Mdf 3mm",
-        "medida_original": "17 cm"
+        "unitario": 1500
     },
     "estrellasgrabadas": {
         "codigo": "Estrellas grabadas",
@@ -2383,21 +1921,15 @@ const productos = {
                 "mayor": 400,
                 "unitario": 400
             }
-        ],
-        "descripcion": "Estrellas Grabadas Mdf 3 mm",
-        "medida_original": "9 cm"
+        ]
     },
     "estrellasgrabadas5cm": {
         "parent": "estrellasgrabadas",
-        "preselect": "5 cm",
-        "descripcion": "Estrellas Grabadas Mdf 3 mm",
-        "medida_original": "9 cm"
+        "preselect": "5 cm"
     },
     "estrellasgrabadas9cm": {
         "parent": "estrellasgrabadas",
-        "preselect": "9 cm",
-        "descripcion": "Estrellas Grabadas Mdf 3 mm",
-        "medida_original": "9 cm"
+        "preselect": "9 cm"
     },
     "estrellas": {
         "codigo": "Estrellas",
@@ -2405,9 +1937,7 @@ const productos = {
         "imagen": "img/Estrellas.jpg",
         "tipo": "simple",
         "mayor": 100,
-        "unitario": 100,
-        "descripcion": "Juego de estrellas (6) Mdf 3 mm 4,5 cm",
-        "medida_original": "4,5 cm"
+        "unitario": 100
     },
     "farol1": {
         "codigo": "Farol1",
@@ -2415,9 +1945,7 @@ const productos = {
         "imagen": "img/Farol1.jpg",
         "tipo": "simple",
         "mayor": 3700,
-        "unitario": 4500,
-        "descripcion": "Mdf 5,5 mm 27 cm alto",
-        "medida_original": "27 cm alto"
+        "unitario": 4500
     },
     "figuritas10": {
         "codigo": "Figuritas10",
@@ -2425,9 +1953,7 @@ const productos = {
         "imagen": "img/Figuritas10.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 6 figuritas para imanes Capibara sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "figuritas11": {
         "codigo": "figuritas11",
@@ -2435,9 +1961,7 @@ const productos = {
         "imagen": "img/figuritas11.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 6 figuritas para imanes Hello Kitty sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "figuritas12": {
         "codigo": "figuritas12",
@@ -2445,9 +1969,7 @@ const productos = {
         "imagen": "img/figuritas12.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Set de 4 figuritas para imanes El Principito sin imanes",
-        "medida_original": ""
+        "unitario": 1000
     },
     "figuritas13": {
         "codigo": "figuritas13",
@@ -2455,9 +1977,7 @@ const productos = {
         "imagen": "img/figuritas13.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 6 figuritas para imanes Harry Potter sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "figuritas14": {
         "codigo": "figuritas14",
@@ -2465,9 +1985,7 @@ const productos = {
         "imagen": "img/figuritas14.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1200,
-        "descripcion": "Set de 4 figuritas para imanes Pajaritos sin imanes",
-        "medida_original": ""
+        "unitario": 1200
     },
     "figuritas15": {
         "codigo": "figuritas15",
@@ -2475,9 +1993,7 @@ const productos = {
         "imagen": "img/figuritas15.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 4 figuritas para imanes Animalitos sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "figuritas16": {
         "codigo": "figuritas16",
@@ -2485,9 +2001,7 @@ const productos = {
         "imagen": "img/figuritas16.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de 6 figuritas para imanes Snoopy Sin imanes 7 a 7,5 cm",
-        "medida_original": "7 a 7,5 cm"
+        "unitario": 1500
     },
     "figuritas17": {
         "codigo": "figuritas17",
@@ -2495,9 +2009,7 @@ const productos = {
         "imagen": "img/figuritas17.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 1700,
-        "descripcion": "Set de 5 figuritas pintables 7 a 7,5 cm alto",
-        "medida_original": "7 a 7,5 cm"
+        "unitario": 1700
     },
     "florcora1": {
         "codigo": "FLORCORA1",
@@ -2505,9 +2017,7 @@ const productos = {
         "imagen": "img/FLORCORA1.jpg",
         "tipo": "simple",
         "mayor": 2700,
-        "unitario": 3500,
-        "descripcion": "Flor de 7 capas Mdf 3 mm",
-        "medida_original": "22 cm"
+        "unitario": 3500
     },
     "florcora2": {
         "codigo": "FLORCORA2",
@@ -2515,9 +2025,7 @@ const productos = {
         "imagen": "img/FLORCORA2.jpg",
         "tipo": "simple",
         "mayor": 2700,
-        "unitario": 3500,
-        "descripcion": "Flor de 4 capas Mdf 3 mm",
-        "medida_original": "24 cm"
+        "unitario": 3500
     },
     "florcora3": {
         "codigo": "FLORCORA3",
@@ -2525,9 +2033,7 @@ const productos = {
         "imagen": "img/FLORCORA3.jpg",
         "tipo": "simple",
         "mayor": 2700,
-        "unitario": 3500,
-        "descripcion": "Flor de 7 capas Mdf 3 mm",
-        "medida_original": "21 cm"
+        "unitario": 3500
     },
     "frida1": {
         "codigo": "Frida1",
@@ -2535,9 +2041,7 @@ const productos = {
         "imagen": "img/Frida1.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Composición Frida Mdf 3 mm 2 8 cm Diámetro",
-        "medida_original": "2 8 cm Diámetro"
+        "unitario": 4200
     },
     "frida2": {
         "codigo": "Frida2",
@@ -2545,9 +2049,7 @@ const productos = {
         "imagen": "img/Frida2.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Composición Frida 2 Mdf 3 mm 28 cm Día metro",
-        "medida_original": "28 cm Día metro"
+        "unitario": 4200
     },
     "frida3": {
         "codigo": "frida3",
@@ -2555,9 +2057,7 @@ const productos = {
         "imagen": "img/frida3.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 2600,
-        "descripcion": "Cuadro Frida 3 Mdf 3 mm 22 x 17.6 cm",
-        "medida_original": "22 x 17.6 cm"
+        "unitario": 2600
     },
     "frida4": {
         "codigo": "Frida4",
@@ -2565,9 +2065,7 @@ const productos = {
         "imagen": "img/Frida4.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4200,
-        "descripcion": "Corazón frida 4 Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 4200
     },
     "frida5": {
         "codigo": "Frida5",
@@ -2575,9 +2073,7 @@ const productos = {
         "imagen": "img/Frida5.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4200,
-        "descripcion": "Corazón Frida 5 Mdf 3 mm 3 1 cm",
-        "medida_original": "3 1 cm"
+        "unitario": 4200
     },
     "ganesha": {
         "codigo": "Ganesha",
@@ -2585,9 +2081,7 @@ const productos = {
         "imagen": "img/Ganesha.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4500,
-        "descripcion": "Flor Indi",
-        "medida_original": "30 cm ancho x 23 alto"
+        "unitario": 4500
     },
     "girasolmulticapas": {
         "codigo": "Girasol Multicapas",
@@ -2595,9 +2089,7 @@ const productos = {
         "imagen": "img/Girasol Multicapas.jpg",
         "tipo": "simple",
         "mayor": 3200,
-        "unitario": 4000,
-        "descripcion": "Girasol multicapas 3 capas",
-        "medida_original": "30 cm"
+        "unitario": 4000
     },
     "gnomonavideno": {
         "codigo": "Gnomo navideño",
@@ -2605,9 +2097,7 @@ const productos = {
         "imagen": "img/Gnomo navideño.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 3000,
-        "descripcion": "Gnomo en capas",
-        "medida_original": "2 6.8 cm"
+        "unitario": 3000
     },
     "gra1": {
         "codigo": "GRA1",
@@ -2615,9 +2105,7 @@ const productos = {
         "imagen": "img/GRA1.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado1",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra10": {
         "codigo": "GRA10",
@@ -2625,9 +2113,7 @@ const productos = {
         "imagen": "img/GRA10.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado10",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra11": {
         "codigo": "GRA11",
@@ -2635,9 +2121,7 @@ const productos = {
         "imagen": "img/GRA11.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado11",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra12": {
         "codigo": "GRA12",
@@ -2645,9 +2129,7 @@ const productos = {
         "imagen": "img/GRA12.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado12",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra13": {
         "codigo": "GRA13",
@@ -2655,9 +2137,7 @@ const productos = {
         "imagen": "img/GRA13.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado13",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra14": {
         "codigo": "GRA14",
@@ -2665,9 +2145,7 @@ const productos = {
         "imagen": "img/GRA14.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado14",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra15": {
         "codigo": "GRA15",
@@ -2675,9 +2153,7 @@ const productos = {
         "imagen": "img/GRA15.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado15",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra16": {
         "codigo": "GRA16",
@@ -2685,9 +2161,7 @@ const productos = {
         "imagen": "img/GRA16.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado16",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra17": {
         "codigo": "GRA17",
@@ -2695,9 +2169,7 @@ const productos = {
         "imagen": "img/GRA17.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado17",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra18": {
         "codigo": "GRA18",
@@ -2705,9 +2177,7 @@ const productos = {
         "imagen": "img/GRA18.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado18",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra19": {
         "codigo": "GRA19",
@@ -2715,9 +2185,7 @@ const productos = {
         "imagen": "img/GRA19.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Zorro grabado",
-        "medida_original": "20 cm altura"
+        "unitario": 1400
     },
     "gra2": {
         "codigo": "GRA2",
@@ -2725,9 +2193,7 @@ const productos = {
         "imagen": "img/GRA2.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado2",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra3": {
         "codigo": "GRA3",
@@ -2735,9 +2201,7 @@ const productos = {
         "imagen": "img/GRA3.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado3",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra4": {
         "codigo": "GRA4",
@@ -2745,9 +2209,7 @@ const productos = {
         "imagen": "img/GRA4.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado4",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra5": {
         "codigo": "GRA5",
@@ -2755,9 +2217,7 @@ const productos = {
         "imagen": "img/GRA5.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado5",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra6": {
         "codigo": "GRA6",
@@ -2765,9 +2225,7 @@ const productos = {
         "imagen": "img/GRA6.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado6",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra7": {
         "codigo": "GRA7",
@@ -2775,9 +2233,7 @@ const productos = {
         "imagen": "img/GRA7.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado7",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra8": {
         "codigo": "GRA8",
@@ -2785,9 +2241,7 @@ const productos = {
         "imagen": "img/GRA8.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado8",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "gra9": {
         "codigo": "GRA9",
@@ -2795,9 +2249,7 @@ const productos = {
         "imagen": "img/GRA9.jpg",
         "tipo": "simple",
         "mayor": 1100,
-        "unitario": 1400,
-        "descripcion": "Grabado9",
-        "medida_original": "19 cm"
+        "unitario": 1400
     },
     "guirnaldabosque": {
         "codigo": "Guirnalda Bosque",
@@ -2805,9 +2257,7 @@ const productos = {
         "imagen": "img/Guirnalda Bosque.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 2000,
-        "descripcion": "Colgantes bosque Mdf 3 mm 8,5 cm",
-        "medida_original": "8,5 cm"
+        "unitario": 2000
     },
     "halloween": {
         "codigo": "Halloween",
@@ -2815,9 +2265,7 @@ const productos = {
         "imagen": "img/Halloween.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5700,
-        "descripcion": "Cuadro 3D Halloween",
-        "medida_original": "20 x 16 cm"
+        "unitario": 5700
     },
     "harrypotter3d": {
         "codigo": "Harrypotter3d",
@@ -2825,9 +2273,7 @@ const productos = {
         "imagen": "img/Harrypotter3d.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5700,
-        "descripcion": "Cuadro temático 3D de  Harry Potter",
-        "medida_original": "2 1 X 1 7 cm"
+        "unitario": 5700
     },
     "homebase": {
         "codigo": "Home base",
@@ -2835,9 +2281,7 @@ const productos = {
         "imagen": "img/Home base.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3900,
-        "descripcion": "Base vintage",
-        "medida_original": "38 cm alto"
+        "unitario": 3900
     },
     "homenavideno": {
         "codigo": "HOME NAVIDEÑO",
@@ -2845,9 +2289,7 @@ const productos = {
         "imagen": "img/HOME  NAVIDEÑO.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3000,
-        "descripcion": "Letras HOME",
-        "medida_original": "9 cm de alto y corona en capas para reemplazar la letra \"O\""
+        "unitario": 3000
     },
     "horadelte": {
         "codigo": "Hora del Té",
@@ -2855,9 +2297,7 @@ const productos = {
         "imagen": "img/Hora del Té.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1600,
-        "descripcion": "Set Hora del Té Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 1600
     },
     "l001": {
         "codigo": "L001",
@@ -2865,9 +2305,7 @@ const productos = {
         "imagen": "img/L001.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Set Home Mdf 3 mm 9 cm de alto c/u.",
-        "medida_original": "9 cm de alto"
+        "unitario": 2800
     },
     "l002": {
         "codigo": "L002",
@@ -2875,9 +2313,7 @@ const productos = {
         "imagen": "img/L002.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4300,
-        "descripcion": "Set Welcome Mdf 3 mm",
-        "medida_original": "9 cm"
+        "unitario": 4300
     },
     "l003": {
         "codigo": "L003",
@@ -2885,9 +2321,7 @@ const productos = {
         "imagen": "img/L003.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2500,
-        "descripcion": "",
-        "medida_original": ""
+        "unitario": 2500
     },
     "leopardo": {
         "codigo": "Leopardo",
@@ -2895,9 +2329,7 @@ const productos = {
         "imagen": "img/Leopardo.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5600,
-        "descripcion": "Leopardo multicapa Mdf 5,5 mm 26 x 22,7 cm.",
-        "medida_original": "26 x 22,7 cm"
+        "unitario": 5600
     },
     "leopardo2": {
         "codigo": "Leopardo2",
@@ -2905,9 +2337,7 @@ const productos = {
         "imagen": "img/Leopardo2.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Leopardo multicapa Mdf 3 mm 23 x 21 cm",
-        "medida_original": "23 x 21 cm"
+        "unitario": 3800
     },
     "letrerovintage": {
         "codigo": "Letrerovintage",
@@ -2915,9 +2345,7 @@ const productos = {
         "imagen": "img/Letrerovintage.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 3000,
-        "descripcion": "letrero vintage",
-        "medida_original": "9 X 35 cm"
+        "unitario": 3000
     },
     "letrero1": {
         "codigo": "Letrero1",
@@ -2925,9 +2353,7 @@ const productos = {
         "imagen": "img/Letrero1.jpg",
         "tipo": "simple",
         "mayor": 3400,
-        "unitario": 4200,
-        "descripcion": "Letrero viva la vida Mdf 3 mm 22 x 24.5 cm",
-        "medida_original": "22 x 24.5 cm"
+        "unitario": 4200
     },
     "letrero2": {
         "codigo": "Letrero2",
@@ -2935,9 +2361,7 @@ const productos = {
         "imagen": "img/Letrero2.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Letrero personalizable nùmeros Mdf 3 mm 2 4 x 26.6 cm",
-        "medida_original": "2 4 x 26.6 cm"
+        "unitario": 3800
     },
     "letrero3": {
         "codigo": "Letrero3",
@@ -2945,9 +2369,7 @@ const productos = {
         "imagen": "img/Letrero3.jpg",
         "tipo": "simple",
         "mayor": 3300,
-        "unitario": 4000,
-        "descripcion": "Letrero personalizable Mdf 5,5 mm 24 x 26.6 cm",
-        "medida_original": "24 x 26.6 cm"
+        "unitario": 4000
     },
     "letrero4": {
         "codigo": "Letrero4",
@@ -2955,9 +2377,7 @@ const productos = {
         "imagen": "img/Letrero4.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2500,
-        "descripcion": "Letrero Vintage (Sin letras) Mdf 3 mm 18 x 27 cm",
-        "medida_original": "18 x 27 cm"
+        "unitario": 2500
     },
     "libromagico1": {
         "codigo": "Libromagico1",
@@ -2965,9 +2385,7 @@ const productos = {
         "imagen": "img/Libromagico1.jpg",
         "tipo": "simple",
         "mayor": 6500,
-        "unitario": 7300,
-        "descripcion": "Libro 3D inspirado en \"Alicia en el Pais de las Maravillas\" Mdf 3 mm 21,8 X18 cm",
-        "medida_original": "21,8 X18 cm"
+        "unitario": 7300
     },
     "libromagico2": {
         "codigo": "Libromagico2",
@@ -2975,9 +2393,7 @@ const productos = {
         "imagen": "img/Libromagico2.jpg",
         "tipo": "simple",
         "mayor": 7000,
-        "unitario": 7800,
-        "descripcion": "Libro 3D inspirado en \" Peter Rabbit \" Mdf 3 mm 21,8 X18 cm",
-        "medida_original": "21,8 X18 cm"
+        "unitario": 7800
     },
     "llavesycerrojos": {
         "codigo": "Llaves y Cerrojos",
@@ -2985,9 +2401,7 @@ const productos = {
         "imagen": "img/Llaves y Cerrojos.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Set aplicaciones Llaves y Cerrojos Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 1000
     },
     "marip1": {
         "codigo": "Marip1",
@@ -2995,9 +2409,7 @@ const productos = {
         "imagen": "img/Marip1.jpg",
         "tipo": "simple",
         "mayor": 3800,
-        "unitario": 4700,
-        "descripcion": "Mariposa detalles",
-        "medida_original": "30 x 24 cm"
+        "unitario": 4700
     },
     "marip2": {
         "codigo": "Marip2",
@@ -3005,9 +2417,7 @@ const productos = {
         "imagen": "img/Marip2.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4200,
-        "descripcion": "Mariposa detalles 2 capas",
-        "medida_original": "25 x 22 cm"
+        "unitario": 4200
     },
     "marip3": {
         "codigo": "Marip3",
@@ -3015,9 +2425,7 @@ const productos = {
         "imagen": "img/Marip3.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3900,
-        "descripcion": "Mariposa Nocturna Mdf 3 mm 25 x 20 cm",
-        "medida_original": "25 x 20 cm"
+        "unitario": 3900
     },
     "marip4": {
         "codigo": "Marip4",
@@ -3025,9 +2433,7 @@ const productos = {
         "imagen": "img/Marip4.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Mariposa nocturna con base circular Mdf 3mm",
-        "medida_original": "26 cm"
+        "unitario": 3800
     },
     "marip5": {
         "codigo": "Marip5",
@@ -3035,9 +2441,7 @@ const productos = {
         "imagen": "img/Marip5.jpg",
         "tipo": "simple",
         "mayor": 4000,
-        "unitario": 4800,
-        "descripcion": "Mariposa nocturna en capas Mdf 5,5 mm 27 x 36 cm",
-        "medida_original": "27 x 36 cm"
+        "unitario": 4800
     },
     "marip6": {
         "codigo": "Marip6",
@@ -3045,9 +2449,7 @@ const productos = {
         "imagen": "img/Marip6.jpg",
         "tipo": "simple",
         "mayor": 3200,
-        "unitario": 4000,
-        "descripcion": "Mariposa Mdf de 5,5 mm 24 x 17,6 cm.",
-        "medida_original": "24 x 17,6 cm"
+        "unitario": 4000
     },
     "mascara1": {
         "codigo": "Mascara1",
@@ -3055,9 +2457,7 @@ const productos = {
         "imagen": "img/Mascara1.jpg",
         "tipo": "simple",
         "mayor": 2800,
-        "unitario": 3800,
-        "descripcion": "Mascara en capas estilo Picasso Mdf 3 mm 30 x 19 cm",
-        "medida_original": "30 x 19 cm"
+        "unitario": 3800
     },
     "memorialmascotas": {
         "codigo": "Memorial Mascotas",
@@ -3065,9 +2465,7 @@ const productos = {
         "imagen": "img/Memorial Mascotas.jpg",
         "tipo": "simple",
         "mayor": 3600,
-        "unitario": 2800,
-        "descripcion": "retrato personalizable con el nombre de tu mascota",
-        "medida_original": "28 cm"
+        "unitario": 2800
     },
     "mujerlunar": {
         "codigo": "mujerlunar",
@@ -3075,9 +2473,7 @@ const productos = {
         "imagen": "img/mujerlunar.jpg",
         "tipo": "simple",
         "mayor": 3200,
-        "unitario": 4000,
-        "descripcion": "Mujer Lunar",
-        "medida_original": "27 cm diámetro"
+        "unitario": 4000
     },
     "munecodenieve": {
         "codigo": "muñeco de nieve",
@@ -3085,9 +2481,7 @@ const productos = {
         "imagen": "img/muñeco de nieve.jpg",
         "tipo": "simple",
         "mayor": 3900,
-        "unitario": 4800,
-        "descripcion": "Mono de nieve con base y capas",
-        "medida_original": "35 x 31 cm"
+        "unitario": 4800
     },
     "narnia3d": {
         "codigo": "Narnia3D",
@@ -3095,9 +2489,7 @@ const productos = {
         "imagen": "img/Narnia3D.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "Cuadro 3D inspirado en Narnia",
-        "medida_original": "20 cm a lto"
+        "unitario": 5800
     },
     "nicho1": {
         "codigo": "Nicho1",
@@ -3105,9 +2497,7 @@ const productos = {
         "imagen": "img/Nicho1.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "(NO incluye el corazón de yeso)",
-        "medida_original": "27 x 12 cm"
+        "unitario": 5800
     },
     "nicho2": {
         "codigo": "nicho2",
@@ -3115,9 +2505,7 @@ const productos = {
         "imagen": "img/nicho2.jpg",
         "tipo": "simple",
         "mayor": 5500,
-        "unitario": 6300,
-        "descripcion": "(NO incluye el corazón de yeso o ziña)",
-        "medida_original": "18 x 34 cm"
+        "unitario": 6300
     },
     "nicho3": {
         "codigo": "nicho3",
@@ -3125,9 +2513,7 @@ const productos = {
         "imagen": "img/nicho3.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5500,
-        "descripcion": "",
-        "medida_original": "33 x 18 cm"
+        "unitario": 5500
     },
     "nicho4": {
         "codigo": "Nicho4",
@@ -3135,9 +2521,7 @@ const productos = {
         "imagen": "img/Nicho4.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "",
-        "medida_original": "30 x 18 cm"
+        "unitario": 5800
     },
     "ojoturco": {
         "codigo": "OJOTURCO",
@@ -3145,9 +2529,7 @@ const productos = {
         "imagen": "img/OJOTURCO.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 2500,
-        "descripcion": "Ojo en capas",
-        "medida_original": "23x18 cm"
+        "unitario": 2500
     },
     "pajaro": {
         "codigo": "Pájaro",
@@ -3155,9 +2537,7 @@ const productos = {
         "imagen": "img/Pájaro.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1800,
-        "descripcion": "PAJARO",
-        "medida_original": "20 cm ANCHO"
+        "unitario": 1800
     },
     "pesebre": {
         "codigo": "pesebre",
@@ -3165,9 +2545,7 @@ const productos = {
         "imagen": "img/pesebre.jpg",
         "tipo": "simple",
         "mayor": 11000,
-        "unitario": 11000,
-        "descripcion": "Pesebre navideño Mdf 3 mm 38 x 32 cm 23 cm. de fondo",
-        "medida_original": ""
+        "unitario": 11000
     },
     "peter3d": {
         "codigo": "Peter3D",
@@ -3175,9 +2553,7 @@ const productos = {
         "imagen": "img/Peter3D.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5700,
-        "descripcion": "Cuadro temático 3D inspirado en \"Peter Rabbit\"",
-        "medida_original": "2 3 X 1 8 cm"
+        "unitario": 5700
     },
     "pinohome": {
         "codigo": "pino home",
@@ -3185,9 +2561,7 @@ const productos = {
         "imagen": "img/pino home.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 2000,
-        "descripcion": "Pino con base Mdf 3 mm",
-        "medida_original": "20 cm"
+        "unitario": 2000
     },
     "portacel1": {
         "codigo": "Porta cel1",
@@ -3195,9 +2569,7 @@ const productos = {
         "imagen": "img/Porta cel1.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1800,
-        "descripcion": "porta celular Snoppy",
-        "medida_original": "19 cm"
+        "unitario": 1800
     },
     "portallave1": {
         "codigo": "Portallave1",
@@ -3205,9 +2577,7 @@ const productos = {
         "imagen": "img/Portallave1.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 3200,
-        "descripcion": "Porta llaves / organizador de cadenas y joyas",
-        "medida_original": "25 x 17 cm"
+        "unitario": 3200
     },
     "p1": {
         "codigo": "p1",
@@ -3215,9 +2585,7 @@ const productos = {
         "imagen": "img/p1.jpg",
         "tipo": "simple",
         "mayor": 3900,
-        "unitario": 3900,
-        "descripcion": "Set Posavasos Corazón (6 u.) Mdf 5,5 mm.",
-        "medida_original": ""
+        "unitario": 3900
     },
     "p2": {
         "codigo": "p2",
@@ -3225,9 +2593,7 @@ const productos = {
         "imagen": "img/p2.jpg",
         "tipo": "simple",
         "mayor": 3900,
-        "unitario": 3900,
-        "descripcion": "Set Posavasos Flor (6 u.) Mdf 5,5 mm.",
-        "medida_original": ""
+        "unitario": 3900
     },
     "p3": {
         "codigo": "p3",
@@ -3235,9 +2601,7 @@ const productos = {
         "imagen": "img/p3.jpg",
         "tipo": "simple",
         "mayor": 4200,
-        "unitario": 4200,
-        "descripcion": "Set Posavasos Corazón y Rosa (6 u.) Mdf 5,5 mm.",
-        "medida_original": ""
+        "unitario": 4200
     },
     "p4": {
         "codigo": "p4",
@@ -3245,9 +2609,7 @@ const productos = {
         "imagen": "img/p4.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5000,
-        "descripcion": "Set Posavasos Mándala (6 u.) Mdf 5,5 mm.",
-        "medida_original": ""
+        "unitario": 5000
     },
     "principito1": {
         "codigo": "Principito1",
@@ -3255,9 +2617,7 @@ const productos = {
         "imagen": "img/Principito1.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 2600,
-        "descripcion": "Pricipito 1 doble capa",
-        "medida_original": "27 cm"
+        "unitario": 2600
     },
     "principito2": {
         "codigo": "Principito2",
@@ -3265,9 +2625,7 @@ const productos = {
         "imagen": "img/Principito2.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5700,
-        "descripcion": "Cuadro principito 3D",
-        "medida_original": "22.9 cm"
+        "unitario": 5700
     },
     "ranita": {
         "codigo": "Ranita",
@@ -3275,9 +2633,7 @@ const productos = {
         "imagen": "img/Ranita.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 4500,
-        "descripcion": "ranita Mdf 3 mm",
-        "medida_original": "32 cm"
+        "unitario": 4500
     },
     "ratitapresumida": {
         "codigo": "Ratita presumida",
@@ -3285,9 +2641,7 @@ const productos = {
         "imagen": "img/Ratita presumida.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "Cuadro tematico ratita",
-        "medida_original": "23 X 18 cm"
+        "unitario": 5800
     },
     "renobase": {
         "codigo": "reno base",
@@ -3305,21 +2659,15 @@ const productos = {
                 "mayor": 1800,
                 "unitario": 1800
             }
-        ],
-        "descripcion": "Reno grabado Mdf 3 mm 15 cm alto",
-        "medida_original": "15 cm alto"
+        ]
     },
     "renobase3mm": {
         "parent": "renobase",
-        "preselect": "3 mm",
-        "descripcion": "Reno grabado Mdf 3 mm 15 cm alto",
-        "medida_original": "15 cm alto"
+        "preselect": "3 mm"
     },
     "renobase5mm": {
         "parent": "renobase",
-        "preselect": "5.5 mm",
-        "descripcion": "Reno grabado Mdf 3 mm 15 cm alto",
-        "medida_original": "15 cm alto"
+        "preselect": "5.5 mm"
     },
     "renograbado": {
         "codigo": "reno grabado",
@@ -3327,9 +2675,7 @@ const productos = {
         "imagen": "img/reno grabado.jpg",
         "tipo": "simple",
         "mayor": 500,
-        "unitario": 600,
-        "descripcion": "Reno grabado Mdf 3 mm",
-        "medida_original": "9 cm"
+        "unitario": 600
     },
     "renomecedor": {
         "codigo": "Reno Mecedor",
@@ -3337,9 +2683,7 @@ const productos = {
         "imagen": "img/Reno Mecedor.jpg",
         "tipo": "simple",
         "mayor": 6000,
-        "unitario": 6600,
-        "descripcion": "Reno mecedor",
-        "medida_original": "3 3 cm"
+        "unitario": 6600
     },
     "renos": {
         "codigo": "Renos",
@@ -3347,9 +2691,7 @@ const productos = {
         "imagen": "img/Renos.jpg",
         "tipo": "simple",
         "mayor": 700,
-        "unitario": 700,
-        "descripcion": "Dúo de Renos Mdf 3 mm 10 x 6 cm .",
-        "medida_original": "10 x 6 cm"
+        "unitario": 700
     },
     "repisa01": {
         "codigo": "Repisa01",
@@ -3357,9 +2699,7 @@ const productos = {
         "imagen": "img/Repisa01.jpg",
         "tipo": "simple",
         "mayor": 8200,
-        "unitario": 9000,
-        "descripcion": "Repisa de Sobremesa Decorativa Mdf 5,5 mm 38 x 31 cm",
-        "medida_original": "38 x 31 cm"
+        "unitario": 9000
     },
     "rosetaswallartl": {
         "codigo": "Rosetas Wall Art L",
@@ -3367,9 +2707,7 @@ const productos = {
         "imagen": "img/Rosetas Wall Art L.jpg",
         "tipo": "simple",
         "mayor": 9500,
-        "unitario": 9500,
-        "descripcion": "Conjunto decorativo para muro Aro de Mdf 5,5 mm Roseta circular Mdf 3mm",
-        "medida_original": ""
+        "unitario": 9500
     },
     "rosetaswallartm": {
         "codigo": "Rosetas Wall Art M",
@@ -3377,9 +2715,7 @@ const productos = {
         "imagen": "img/Rosetas Wall Art M.jpg",
         "tipo": "simple",
         "mayor": 8000,
-        "unitario": 8000,
-        "descripcion": "Conjunto decorativo para muro Aro de Mdf 5,5 mm Roseta circular Mdf 3mm",
-        "medida_original": ""
+        "unitario": 8000
     },
     "sagradafambase": {
         "codigo": "sagrada fam. base",
@@ -3387,9 +2723,7 @@ const productos = {
         "imagen": "img/sagrada fam. base.jpg",
         "tipo": "simple",
         "mayor": 2200,
-        "unitario": 2200,
-        "descripcion": "Sagrada Familia con base Mdf 5,5 mm",
-        "medida_original": "20 cm"
+        "unitario": 2200
     },
     "setanillos1": {
         "codigo": "Set Anillos1",
@@ -3397,9 +2731,7 @@ const productos = {
         "imagen": "img/Set Anillos1.jpg",
         "tipo": "simple",
         "mayor": 2900,
-        "unitario": 3300,
-        "descripcion": "Set 6 Anillos para Servilleta Corazón",
-        "medida_original": "6 cm"
+        "unitario": 3300
     },
     "setanillos2": {
         "codigo": "Set Anillos2",
@@ -3407,9 +2739,7 @@ const productos = {
         "imagen": "img/Set Anillos2.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2500,
-        "descripcion": "Set  6 Anillos para Servilleta Pajarito",
-        "medida_original": "7 cm"
+        "unitario": 2500
     },
     "setanillos3": {
         "codigo": "Set Anillos3",
@@ -3417,9 +2747,7 @@ const productos = {
         "imagen": "img/Set Anillos3.jpg",
         "tipo": "simple",
         "mayor": 2900,
-        "unitario": 3300,
-        "descripcion": "Set  6 Anillos para Servilleta Girasol",
-        "medida_original": "7 cm"
+        "unitario": 3300
     },
     "setanillos4": {
         "codigo": "Set Anillos4",
@@ -3427,9 +2755,7 @@ const productos = {
         "imagen": "img/Set Anillos4.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 2800,
-        "descripcion": "Set  6 Anillos para Servilleta Mariposa",
-        "medida_original": "6 cm"
+        "unitario": 2800
     },
     "setanillos5": {
         "codigo": "Set Anillos5",
@@ -3437,9 +2763,7 @@ const productos = {
         "imagen": "img/Set Anillos5.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 2800,
-        "descripcion": "Set  6 Anillos para Servilleta Libélula",
-        "medida_original": "8 cm"
+        "unitario": 2800
     },
     "setanillos6": {
         "codigo": "Set Anillos6",
@@ -3447,9 +2771,7 @@ const productos = {
         "imagen": "img/Set Anillos6.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2500,
-        "descripcion": "Set  6 Anillos para Servilleta Conejito",
-        "medida_original": "6 cm"
+        "unitario": 2500
     },
     "setanillos7": {
         "codigo": "Set Anillos7",
@@ -3457,9 +2779,7 @@ const productos = {
         "imagen": "img/Set Anillos7.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 2800,
-        "descripcion": "Set  6 Anillos para Servilleta Angelito",
-        "medida_original": "6 cm"
+        "unitario": 2800
     },
     "aplicaciones1": {
         "codigo": "Aplicaciones1",
@@ -3467,9 +2787,7 @@ const productos = {
         "imagen": "img/Aplicaciones1.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 1800,
-        "descripcion": "Set Aplicaciones Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 1800
     },
     "aplicaciones2": {
         "codigo": "Aplicaciones2",
@@ -3477,9 +2795,7 @@ const productos = {
         "imagen": "img/Aplicaciones2.jpg",
         "tipo": "simple",
         "mayor": 1600,
-        "unitario": 1600,
-        "descripcion": "Set Aplicaciones Marcos y Otros Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 1600
     },
     "setaplicaciones3": {
         "codigo": "Set Aplicaciones3",
@@ -3487,9 +2803,7 @@ const productos = {
         "imagen": "img/Set Aplicaciones3.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Set de 8 Marinas Mdf 3 mm 7 a 2 cm de alto",
-        "medida_original": "7 a 2 cm de alto"
+        "unitario": 1000
     },
     "setaplicaciones4": {
         "codigo": "Set Aplicaciones4",
@@ -3497,9 +2811,7 @@ const productos = {
         "imagen": "img/Set Aplicaciones4.jpg",
         "tipo": "simple",
         "mayor": 700,
-        "unitario": 700,
-        "descripcion": "Set de 8 Engranajes Mdf 3 mm 4 cm a 2,3 cm de diámetro",
-        "medida_original": ""
+        "unitario": 700
     },
     "setaplicaciones5": {
         "codigo": "Set Aplicaciones5",
@@ -3507,9 +2819,7 @@ const productos = {
         "imagen": "img/Set Aplicaciones5.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Set de 5 etiquetas Mdf 3 mm Medidas en la imagen",
-        "medida_original": ""
+        "unitario": 1000
     },
     "setcorazonesmulticapa": {
         "codigo": "Set Corazones multicapa",
@@ -3517,9 +2827,7 @@ const productos = {
         "imagen": "img/Set Corazones multicapa.jpg",
         "tipo": "simple",
         "mayor": 2900,
-        "unitario": 3500,
-        "descripcion": "Set de 7 Mini-Corazones Multicapa Mdf 3 mm",
-        "medida_original": "6 cm"
+        "unitario": 3500
     },
     "setcostura": {
         "codigo": "Set Costura",
@@ -3527,9 +2835,7 @@ const productos = {
         "imagen": "img/Set Costura.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1000,
-        "descripcion": "Set aplicaciones costura Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 1000
     },
     "setfigurasnav1": {
         "codigo": "Set figuras nav1",
@@ -3537,9 +2843,7 @@ const productos = {
         "imagen": "img/Set figuras nav1.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1500,
-        "descripcion": "4 figuras grabadas navideñas",
-        "medida_original": "8 y 9 cm alto"
+        "unitario": 1500
     },
     "setfiguritas1": {
         "codigo": "Set Figuritas1",
@@ -3547,9 +2851,7 @@ const productos = {
         "imagen": "img/Set Figuritas1.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes Vintage sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas2": {
         "codigo": "Set Figuritas2",
@@ -3557,9 +2859,7 @@ const productos = {
         "imagen": "img/Set Figuritas2.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 1800,
-        "descripcion": "Set de figuritas para imanes Vestimenta sin imanes",
-        "medida_original": ""
+        "unitario": 1800
     },
     "setfiguritas3": {
         "codigo": "Set Figuritas3",
@@ -3567,9 +2867,7 @@ const productos = {
         "imagen": "img/Set Figuritas3.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes  Cocina sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas4": {
         "codigo": "Set Figuritas4",
@@ -3577,9 +2875,7 @@ const productos = {
         "imagen": "img/Set Figuritas4.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes Animales sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas5": {
         "codigo": "Set Figuritas5",
@@ -3587,9 +2883,7 @@ const productos = {
         "imagen": "img/Set Figuritas5.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes cartoons sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas6": {
         "codigo": "Set Figuritas 6",
@@ -3597,9 +2891,7 @@ const productos = {
         "imagen": "img/Set Figuritas 6.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 1800,
-        "descripcion": "Set de figuritas para imanes terror sin imanes",
-        "medida_original": ""
+        "unitario": 1800
     },
     "setfiguritas7": {
         "codigo": "Set Figuritas7",
@@ -3607,9 +2899,7 @@ const productos = {
         "imagen": "img/Set Figuritas7.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes naturaleza sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas8": {
         "codigo": "Set Figuritas8",
@@ -3617,9 +2907,7 @@ const productos = {
         "imagen": "img/Set Figuritas8.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Set de figuritas para imanes Mexicanos sin imanes",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setfiguritas9": {
         "codigo": "Set Figuritas9",
@@ -3627,9 +2915,7 @@ const productos = {
         "imagen": "img/Set Figuritas9.jpg",
         "tipo": "simple",
         "mayor": 1300,
-        "unitario": 1300,
-        "descripcion": "Set de figuritas para imanes bebidas sin imanes",
-        "medida_original": ""
+        "unitario": 1300
     },
     "setmolduras": {
         "codigo": "Set Molduras",
@@ -3637,9 +2923,7 @@ const productos = {
         "imagen": "img/Set Molduras.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Set 4 Molduras esquineras Mdf 3 mm 7x7.3 cm",
-        "medida_original": "7x7.3 cm"
+        "unitario": 2500
     },
     "setnavideno1": {
         "codigo": "Set navideño1",
@@ -3647,9 +2931,7 @@ const productos = {
         "imagen": "img/Set navideño1.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1500,
-        "descripcion": "Siluetas 1 Mdf de 3 mm",
-        "medida_original": ""
+        "unitario": 1500
     },
     "setnavideno2": {
         "codigo": "Set navideño2",
@@ -3657,9 +2939,7 @@ const productos = {
         "imagen": "img/Set navideño2.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1500,
-        "descripcion": "Siluetas 2 Mdf de 3 y 5,5 mm",
-        "medida_original": ""
+        "unitario": 1500
     },
     "siluetataza1": {
         "codigo": "Silueta Taza1",
@@ -3667,9 +2947,7 @@ const productos = {
         "imagen": "img/Silueta Taza1.jpg",
         "tipo": "simple",
         "mayor": 1900,
-        "unitario": 2700,
-        "descripcion": "Silueta decorativa taza Mdf 3 mm",
-        "medida_original": "Base de 19,5 cm alto T aza de 13 cm alto"
+        "unitario": 2700
     },
     "siluetatetera1": {
         "codigo": "Silueta Tetera1",
@@ -3677,9 +2955,7 @@ const productos = {
         "imagen": "img/Silueta Tetera1.jpg",
         "tipo": "simple",
         "mayor": 1900,
-        "unitario": 2700,
-        "descripcion": "Base de 19,5 cm alto Tetera de 12 cm alto",
-        "medida_original": "Silueta decorativa tetera Mdf 3 mm"
+        "unitario": 2700
     },
     "siluetanina1": {
         "codigo": "Siluetaniña1",
@@ -3687,9 +2963,7 @@ const productos = {
         "imagen": "img/Siluetaniña1.jpg",
         "tipo": "simple",
         "mayor": 1000,
-        "unitario": 1700,
-        "descripcion": "Silueta niña",
-        "medida_original": "20 cm Alto"
+        "unitario": 1700
     },
     "snoopy1": {
         "codigo": "Snoopy1",
@@ -3697,9 +2971,7 @@ const productos = {
         "imagen": "img/Snoopy1.jpg",
         "tipo": "simple",
         "mayor": 5200,
-        "unitario": 6000,
-        "descripcion": "Cuadro temático de Snoopy",
-        "medida_original": "20 X 16 cm"
+        "unitario": 6000
     },
     "snoopy2": {
         "codigo": "Snoopy2",
@@ -3707,9 +2979,7 @@ const productos = {
         "imagen": "img/Snoopy2.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5800,
-        "descripcion": "cuadro de Snoopy peanut",
-        "medida_original": "20 X 16 cm"
+        "unitario": 5800
     },
     "sol1": {
         "codigo": "Sol1",
@@ -3717,9 +2987,7 @@ const productos = {
         "imagen": "img/Sol1.jpg",
         "tipo": "simple",
         "mayor": 2400,
-        "unitario": 3200,
-        "descripcion": "Sol 4 capas Mdf 3 mm 22,4 cm",
-        "medida_original": "22,4 cm"
+        "unitario": 3200
     },
     "stencil12": {
         "codigo": "STENCIL12",
@@ -3727,9 +2995,7 @@ const productos = {
         "imagen": "img/STENCIL12.jpg",
         "tipo": "simple",
         "mayor": 1200,
-        "unitario": 1500,
-        "descripcion": "",
-        "medida_original": ""
+        "unitario": 1500
     },
     "stencil8": {
         "codigo": "STENCIL8",
@@ -3737,9 +3003,7 @@ const productos = {
         "imagen": "img/STENCIL8.jpg",
         "tipo": "simple",
         "mayor": 1300,
-        "unitario": 1500,
-        "descripcion": "",
-        "medida_original": ""
+        "unitario": 1500
     },
     "tag": {
         "codigo": "Tag",
@@ -3747,9 +3011,7 @@ const productos = {
         "imagen": "img/Tag.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 800,
-        "descripcion": "Set de 3 tag Mdf 3 mm. 7,3 x 4,5 cm.",
-        "medida_original": ""
+        "unitario": 800
     },
     "tagnavideno": {
         "codigo": "Tag Navideño",
@@ -3757,9 +3019,7 @@ const productos = {
         "imagen": "img/Tag Navideño.jpg",
         "tipo": "simple",
         "mayor": 1700,
-        "unitario": 2200,
-        "descripcion": "Tag navideño en capas",
-        "medida_original": "23 cm"
+        "unitario": 2200
     },
     "tazasyteteras": {
         "codigo": "Tazas y Teteras",
@@ -3767,9 +3027,7 @@ const productos = {
         "imagen": "img/Tazas y Teteras.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 800,
-        "descripcion": "Set aplicaciones Tazas y Teteras Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 800
     },
     "teatro": {
         "codigo": "Teatro",
@@ -3777,9 +3035,7 @@ const productos = {
         "imagen": "img/Teatro.jpg",
         "tipo": "simple",
         "mayor": 11000,
-        "unitario": 11000,
-        "descripcion": "Teatro tematico",
-        "medida_original": "38 cm"
+        "unitario": 11000
     },
     "tiendavintage1": {
         "codigo": "Tienda vintage1",
@@ -3787,9 +3043,7 @@ const productos = {
         "imagen": "img/Tienda vintage1.jpg",
         "tipo": "simple",
         "mayor": 5500,
-        "unitario": 6300,
-        "descripcion": "Tienda vintage 3d",
-        "medida_original": ""
+        "unitario": 6300
     },
     "tiendavintage2": {
         "codigo": "Tienda vintage2",
@@ -3797,9 +3051,7 @@ const productos = {
         "imagen": "img/Tienda vintage2.jpg",
         "tipo": "simple",
         "mayor": 5900,
-        "unitario": 6700,
-        "descripcion": "Mdf 3 mm",
-        "medida_original": ""
+        "unitario": 6700
     },
     "torre": {
         "codigo": "Torre",
@@ -3807,9 +3059,7 @@ const productos = {
         "imagen": "img/Torre.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5600,
-        "descripcion": "Torre castillo Mdf 3 mm 3 6,5 cm",
-        "medida_original": "3 6,5 cm"
+        "unitario": 5600
     },
     "tortugahawaiana": {
         "codigo": "Tortuga hawaiana",
@@ -3817,9 +3067,7 @@ const productos = {
         "imagen": "img/Tortuga hawaiana.jpg",
         "tipo": "simple",
         "mayor": 4800,
-        "unitario": 5600,
-        "descripcion": "Tortuga multicapa Mdf 5,5 mm 26 x 23 cm",
-        "medida_original": "26 x 23 cm"
+        "unitario": 5600
     },
     "uteroflor": {
         "codigo": "Úteroflor",
@@ -3827,9 +3075,7 @@ const productos = {
         "imagen": "img/Úteroflor.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Útero Florido",
-        "medida_original": "27 cm diámetro"
+        "unitario": 3800
     },
     "vigendelvalle": {
         "codigo": "Vigendelvalle",
@@ -3837,9 +3083,7 @@ const productos = {
         "imagen": "img/Vigendelvalle.jpg",
         "tipo": "simple",
         "mayor": 4500,
-        "unitario": 5200,
-        "descripcion": "Cuadro temático 3D",
-        "medida_original": "25 x 17 cm"
+        "unitario": 5200
     },
     "virgen1": {
         "codigo": "Virgen1",
@@ -3847,9 +3091,7 @@ const productos = {
         "imagen": "img/Virgen1.jpg",
         "tipo": "simple",
         "mayor": 1800,
-        "unitario": 2500,
-        "descripcion": "Cuadro Virgen Mdf 3 mm 2 0 cm alto.",
-        "medida_original": "2 0 cm alto"
+        "unitario": 2500
     },
     "virgen2": {
         "codigo": "virgen2",
@@ -3857,9 +3099,7 @@ const productos = {
         "imagen": "img/virgen2.jpg",
         "tipo": "simple",
         "mayor": 4500,
-        "unitario": 5200,
-        "descripcion": "Cuadro temático 3D virgencita de Guadalupe Mdf 3 mm 25 x 17 cm",
-        "medida_original": "25 x 17 cm"
+        "unitario": 5200
     },
     "virgen3": {
         "codigo": "virgen3",
@@ -3867,9 +3107,7 @@ const productos = {
         "imagen": "img/virgen3.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2800,
-        "descripcion": "Virgencita de Guadalupe 3 capas Mdf 3 mm 20 x 1 8 cm",
-        "medida_original": "20 x 1 8 cm"
+        "unitario": 2800
     },
     "virgen4": {
         "codigo": "virgen4",
@@ -3877,9 +3115,7 @@ const productos = {
         "imagen": "img/virgen4.jpg",
         "tipo": "simple",
         "mayor": 4500,
-        "unitario": 5200,
-        "descripcion": "Cuadro temático 3D virgencita de Guadalupe Mdf 3 mm 25 x 17 cm.",
-        "medida_original": "25 x 17 cm"
+        "unitario": 5200
     },
     "zorrito": {
         "codigo": "Zorrito",
@@ -3887,9 +3123,7 @@ const productos = {
         "imagen": "img/Zorrito.jpg",
         "tipo": "simple",
         "mayor": 3000,
-        "unitario": 3800,
-        "descripcion": "Zorro multicapa Mdf 3 mm 24 cm alto",
-        "medida_original": "24 cm alto"
+        "unitario": 3800
     },
     "st01": {
         "codigo": "St-01",
@@ -3897,9 +3131,7 @@ const productos = {
         "imagen": "img/St-01.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2000,
-        "descripcion": "Stencil green tea",
-        "medida_original": "21 x 20 cm"
+        "unitario": 2000
     },
     "st02": {
         "codigo": "St-02",
@@ -3907,9 +3139,7 @@ const productos = {
         "imagen": "img/St-02.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil post",
-        "medida_original": "15 x 13 cm"
+        "unitario": 1500
     },
     "st03": {
         "codigo": "St-03",
@@ -3917,9 +3147,7 @@ const productos = {
         "imagen": "img/St-03.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Stencil farm",
-        "medida_original": "18 x 25 cm"
+        "unitario": 2500
     },
     "st04": {
         "codigo": "St-04",
@@ -3927,9 +3155,7 @@ const productos = {
         "imagen": "img/St-04.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil",
-        "medida_original": "15 x 16 cm"
+        "unitario": 1500
     },
     "st05": {
         "codigo": "St-05",
@@ -3937,9 +3163,7 @@ const productos = {
         "imagen": "img/St-05.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil vintage 1",
-        "medida_original": "16 x 15 cm"
+        "unitario": 1500
     },
     "st06": {
         "codigo": "St-06",
@@ -3947,9 +3171,7 @@ const productos = {
         "imagen": "img/St-06.jpg",
         "tipo": "simple",
         "mayor": 2600,
-        "unitario": 2600,
-        "descripcion": "Stencil pumpinks",
-        "medida_original": "25 x 20 cm"
+        "unitario": 2600
     },
     "st08": {
         "codigo": "St-08",
@@ -3957,9 +3179,7 @@ const productos = {
         "imagen": "img/St-08.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil bienvenidos",
-        "medida_original": "14 x 14 cm"
+        "unitario": 1500
     },
     "st09": {
         "codigo": "St-09",
@@ -3967,9 +3187,7 @@ const productos = {
         "imagen": "img/St-09.jpg",
         "tipo": "simple",
         "mayor": 2300,
-        "unitario": 2300,
-        "descripcion": "Stencil sweet home",
-        "medida_original": "23 x 15,9 cm"
+        "unitario": 2300
     },
     "st10": {
         "codigo": "St-10",
@@ -3977,9 +3195,7 @@ const productos = {
         "imagen": "img/St-10.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Stencil kitchen",
-        "medida_original": "25 x 20 cm"
+        "unitario": 2500
     },
     "st12": {
         "codigo": "St-12",
@@ -3987,9 +3203,7 @@ const productos = {
         "imagen": "img/St-12.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil botanical",
-        "medida_original": "15 x 15 cm"
+        "unitario": 1500
     },
     "st14": {
         "codigo": "St-14",
@@ -3997,9 +3211,7 @@ const productos = {
         "imagen": "img/St-14.jpg",
         "tipo": "simple",
         "mayor": 1500,
-        "unitario": 1500,
-        "descripcion": "Stencil vintage 2",
-        "medida_original": "16 x 13 cm"
+        "unitario": 1500
     },
     "st18": {
         "codigo": "St-18",
@@ -4007,9 +3219,7 @@ const productos = {
         "imagen": "img/St-18.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2000,
-        "descripcion": "Stencil",
-        "medida_original": "18 x 20 cm"
+        "unitario": 2000
     },
     "st20": {
         "codigo": "St-20",
@@ -4017,9 +3227,7 @@ const productos = {
         "imagen": "img/St-20.jpg",
         "tipo": "simple",
         "mayor": 1300,
-        "unitario": 1300,
-        "descripcion": "Stencil",
-        "medida_original": "17 x 06 cm"
+        "unitario": 1300
     },
     "st21": {
         "codigo": "St-21",
@@ -4027,9 +3235,7 @@ const productos = {
         "imagen": "img/St-21.jpg",
         "tipo": "simple",
         "mayor": 2000,
-        "unitario": 2000,
-        "descripcion": "Stencil abeja reina",
-        "medida_original": "20 x 17 cm"
+        "unitario": 2000
     },
     "st22": {
         "codigo": "St-22",
@@ -4037,9 +3243,7 @@ const productos = {
         "imagen": "img/St-22.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Stencil cafe paris",
-        "medida_original": "24 x 19 cm"
+        "unitario": 2500
     },
     "transfermod01": {
         "codigo": "Transfer Mod01",
@@ -4047,9 +3251,7 @@ const productos = {
         "imagen": "img/Transfer  Mod01.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod010": {
         "codigo": "Transfer Mod010",
@@ -4057,9 +3259,7 @@ const productos = {
         "imagen": "img/Transfer  Mod010.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod02": {
         "codigo": "Transfer Mod02",
@@ -4067,9 +3267,7 @@ const productos = {
         "imagen": "img/Transfer  Mod02.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod03": {
         "codigo": "Transfer Mod03",
@@ -4077,9 +3275,7 @@ const productos = {
         "imagen": "img/Transfer  Mod03.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod04": {
         "codigo": "Transfer Mod04",
@@ -4087,9 +3283,7 @@ const productos = {
         "imagen": "img/Transfer  Mod04.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod05": {
         "codigo": "Transfer Mod05",
@@ -4097,9 +3291,7 @@ const productos = {
         "imagen": "img/Transfer  Mod05.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod06": {
         "codigo": "Transfer Mod06",
@@ -4107,9 +3299,7 @@ const productos = {
         "imagen": "img/Transfer  Mod06.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod07": {
         "codigo": "Transfer Mod07",
@@ -4117,9 +3307,7 @@ const productos = {
         "imagen": "img/Transfer  Mod07.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod08": {
         "codigo": "Transfer Mod08",
@@ -4127,9 +3315,7 @@ const productos = {
         "imagen": "img/Transfer  Mod08.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod09": {
         "codigo": "Transfer Mod09",
@@ -4137,9 +3323,7 @@ const productos = {
         "imagen": "img/Transfer  Mod09.jpg",
         "tipo": "simple",
         "mayor": 3500,
-        "unitario": 3500,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "21x30 cm"
+        "unitario": 3500
     },
     "transfermod11": {
         "codigo": "Transfer Mod11",
@@ -4147,9 +3331,7 @@ const productos = {
         "imagen": "img/Transfer  Mod11.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5000,
-        "descripcion": "Lamina Decotransfer Marca Feboart",
-        "medida_original": "30 x30 cm"
+        "unitario": 5000
     },
     "setde10pinceles": {
         "codigo": "Set de 10 Pinceles",
@@ -4157,9 +3339,7 @@ const productos = {
         "imagen": "img/Set de 10 Pinceles.jpg",
         "tipo": "simple",
         "mayor": 5000,
-        "unitario": 5000,
-        "descripcion": "Set de 10 Pinceles planos, cerdas suaves.",
-        "medida_original": ""
+        "unitario": 5000
     },
     "laminapandeorocobre": {
         "codigo": "Lámina Pan de oro cobre",
@@ -4167,9 +3347,7 @@ const productos = {
         "imagen": "img/Lámina Pan de oro cobre.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 450,
-        "descripcion": "Color cobre",
-        "medida_original": "8 x 8 cm"
+        "unitario": 450
     },
     "laminapandeorodorado": {
         "codigo": "Lámina Pan de oro dorado",
@@ -4177,9 +3355,7 @@ const productos = {
         "imagen": "img/Lámina Pan de oro dorado.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 450,
-        "descripcion": "Color dorado",
-        "medida_original": "8 x 8 cm"
+        "unitario": 450
     },
     "laminapandeoroplata": {
         "codigo": "Lámina Pan de oro plata",
@@ -4187,9 +3363,7 @@ const productos = {
         "imagen": "img/Lámina Pan de oro plata.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 450,
-        "descripcion": "Color plata",
-        "medida_original": "8 x 8 cm"
+        "unitario": 450
     },
     "laminapandeororojo": {
         "codigo": "Lámina Pan de oro rojo",
@@ -4197,9 +3371,7 @@ const productos = {
         "imagen": "img/Lámina Pan de oro rojo.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 450,
-        "descripcion": "Color rojo",
-        "medida_original": "8 x 8 cm"
+        "unitario": 450
     },
     "laminapandeoroverde": {
         "codigo": "Lámina Pan de oro verde",
@@ -4207,9 +3379,7 @@ const productos = {
         "imagen": "img/Lámina Pan de oro verde.jpg",
         "tipo": "simple",
         "mayor": 450,
-        "unitario": 450,
-        "descripcion": "Color verde",
-        "medida_original": "8 x 8 cm"
+        "unitario": 450
     },
     "pincelesunitarios": {
         "codigo": "Pinceles unitarios",
@@ -4217,9 +3387,7 @@ const productos = {
         "imagen": "img/Pinceles unitarios.jpg",
         "tipo": "simple",
         "mayor": 650,
-        "unitario": 650,
-        "descripcion": "Pincel plano, cerda suave",
-        "medida_original": "0,5 mm de ancho"
+        "unitario": 650
     },
     "foliadecorativamod01": {
         "codigo": "Folia Decorativa Mod01",
@@ -4227,9 +3395,7 @@ const productos = {
         "imagen": "img/Folia Decorativa Mod01.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Folia Decorativa Marca Feboart Color Cobre",
-        "medida_original": ""
+        "unitario": 2500
     },
     "foliadecorativamod02": {
         "codigo": "Folia Decorativa Mod02",
@@ -4237,9 +3403,7 @@ const productos = {
         "imagen": "img/Folia Decorativa Mod02.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Folia Decorativa Marca Feboart Color Plateado",
-        "medida_original": ""
+        "unitario": 2500
     },
     "foliadecorativamod03": {
         "codigo": "Folia Decorativa Mod03",
@@ -4247,9 +3411,7 @@ const productos = {
         "imagen": "img/Folia Decorativa Mod03.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Folia Decorativa Marca Feboart Color Plateado",
-        "medida_original": ""
+        "unitario": 2500
     },
     "foliadecorativamod04": {
         "codigo": "Folia Decorativa Mod04",
@@ -4257,9 +3419,7 @@ const productos = {
         "imagen": "img/Folia Decorativa Mod04.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Folia Decorativa Marca Feboart Color Plateado",
-        "medida_original": ""
+        "unitario": 2500
     },
     "foliadecorativamod05": {
         "codigo": "Folia Decorativa Mod05",
@@ -4267,9 +3427,7 @@ const productos = {
         "imagen": "img/Folia Decorativa Mod05.jpg",
         "tipo": "simple",
         "mayor": 2500,
-        "unitario": 2500,
-        "descripcion": "Folia Decorativa Marca Feboart Color Plateado",
-        "medida_original": ""
+        "unitario": 2500
     },
     "brochadecerdasuave": {
         "codigo": "Brocha de Cerda Suave",
@@ -4277,9 +3435,7 @@ const productos = {
         "imagen": "img/Brocha de Cerda Suave.jpg",
         "tipo": "simple",
         "mayor": 800,
-        "unitario": 800,
-        "descripcion": "Brocha de cerdas suaves",
-        "medida_original": "1,5 cm de ancho"
+        "unitario": 800
     },
     "banderinmexicano": {
         "codigo": "banderin mexicano",
@@ -4287,8 +3443,6 @@ const productos = {
         "imagen": "img/banderinmexicano.jpg",
         "tipo": "simple",
         "unitario": 900,
-        "mayor": 900,
-        "descripcion": "",
-        "medida_original": ""
+        "mayor": 900
     }
 };

@@ -83,12 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     .main-navbar::before {
-        background-image: url('img/toldo_nuevo.png');
-        height: 70px; /* Cambiado a 70px según requerimiento */
-        background-size: 100% 100%; /* Mostrar imagen completa */
+        height: 30px; /* Achicado en móviles */
+        background-size: 300% 100%; /* Estirar las líneas horizontalmente para que se vean más anchas */
     }
     #catalog-section {
-        scroll-margin-top: 180px; /* Ajustado en base a la nueva altura del toldo */
+        scroll-margin-top: 140px;
     }
 }
 
@@ -1364,8 +1363,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px;
 }
 
 /* Product Card */
@@ -1417,32 +1416,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-title {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--text-muted);
-    margin: 0 0 4px 0;
-    line-height: 1.3;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.product-desc {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--text-main);
+    margin: 0 0 8px 0;
     line-height: 1.3;
-    margin-bottom: 8px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
-.product-spec-medida {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-bottom: 10px;
 }
 
 .product-prices {
@@ -1452,7 +1430,7 @@ h1, h2, h3, h4, h5, h6 {
 .price-row {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--text-muted);
     margin-bottom: 4px;
 }
@@ -1466,87 +1444,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-/* Measures List Layout for Alternative C */
-.measures-list-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    background: rgba(245, 236, 225, 0.4);
-    padding: 8px;
-    border-radius: var(--radius-sm);
-    border: 1px dashed rgba(75, 55, 45, 0.15);
-    margin-bottom: 8px;
-}
-
-.measure-price-row {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr;
-    align-items: center;
-    font-size: 16px;
-    color: var(--text-main);
-    gap: 4px;
-}
-
-.measure-price-row.header-row {
-    font-weight: 700;
-    font-size: 12px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border-bottom: 1px solid rgba(75, 55, 45, 0.15);
-    padding-bottom: 3px;
-    margin-bottom: 2px;
-}
-
-.measure-price-row span {
-    text-align: right;
-}
-
-.measure-price-row span:first-child {
-    text-align: left;
-    font-weight: 600;
-}
-
-.simple-price-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    font-size: 16px;
-    color: var(--text-main);
-    gap: 4px;
-}
-
-.simple-price-row.header-row {
-    font-weight: 700;
-    font-size: 12px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border-bottom: 1px solid rgba(75, 55, 45, 0.15);
-    padding-bottom: 3px;
-    margin-bottom: 2px;
-}
-
-.simple-price-row span {
-    text-align: right;
-}
-
-.simple-price-row span:first-child {
-    text-align: left;
-    font-weight: 700;
-}
-
-.measure-label {
-    color: #4b372d;
-}
-
 .product-action-btn {
     width: 100%;
     border: none;
     background: #f0e6da;
     color: var(--text-main);
     font-family: inherit;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding: 10px;
     border-radius: var(--radius-sm);
@@ -1970,52 +1874,21 @@ h1, h2, h3, h4, h5, h6 {
     }
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 0.5cm; /* Separados por 0.5 cm */
     }
     .product-info {
         padding: 10px;
     }
     .product-title {
-        font-size: 9px;
-        margin-bottom: 4px;
-    }
-    .product-desc {
-        font-size: 14px;
-        margin-bottom: 4px;
-    }
-    .product-spec-medida {
-        font-size: 11px;
+        font-size: 13px;
         margin-bottom: 6px;
     }
     .price-row {
-        font-size: 13px;
+        font-size: 11px;
         margin-bottom: 2px;
     }
-    .measures-list-layout {
-        padding: 6px;
-        gap: 3px;
-        margin-bottom: 6px;
-    }
-    .measure-price-row {
-        font-size: 13px;
-        gap: 2px;
-    }
-    .measure-price-row.header-row {
-        font-size: 10px;
-        padding-bottom: 2px;
-        margin-bottom: 1px;
-    }
-    .simple-price-row {
-        font-size: 13px;
-        gap: 2px;
-    }
-    .simple-price-row.header-row {
-        font-size: 10px;
-        padding-bottom: 2px;
-        margin-bottom: 1px;
-    }
     .product-action-btn {
-        font-size: 13px;
+        font-size: 12px;
         padding: 8px 4px;
         margin-top: 8px;
     }

@@ -304,20 +304,6 @@ function renderCatalog() {
         return true;
     });
 
-    // Ordenar productosFiltrados para agrupar productos con medida única (simple) arriba de los con medidas múltiples (medidas)
-    productosFiltrados.sort((a, b) => {
-        const typeA = productos[a].tipo || "simple";
-        const typeB = productos[b].tipo || "simple";
-        
-        if (typeA === "simple" && typeB === "medidas") {
-            return -1;
-        }
-        if (typeA === "medidas" && typeB === "simple") {
-            return 1;
-        }
-        return 0;
-    });
-
     if (productosFiltrados.length === 0) {
         grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 16px;">No se encontraron productos en esta categoría. 📦</div>`;
         return;
@@ -328,24 +314,19 @@ function renderCatalog() {
         let precioHtml = "";
         
         if (p.tipo === "medidas") {
-            let rowsHtml = "";
-            p.opciones.forEach(op => {
-                rowsHtml += `
-                    <div class="measure-price-row">
-                        <span class="measure-label">${op.medida}</span>
-                        <span class="price-value special">$${op.mayor.toLocaleString("es-CL")}</span>
-                        <span class="price-value">$${op.unitario.toLocaleString("es-CL")}</span>
-                    </div>
-                `;
-            });
+            const minMayor = Math.min(...p.opciones.map(o => o.mayor));
+            const maxMayor = Math.max(...p.opciones.map(o => o.mayor));
+            const minUnitario = Math.min(...p.opciones.map(o => o.unitario));
+            const maxUnitario = Math.max(...p.opciones.map(o => o.unitario));
+            
             precioHtml = `
-                <div class="measures-list-layout">
-                    <div class="measure-price-row header-row">
-                        <span>Medida</span>
-                        <span>Mayor</span>
-                        <span>Unidad</span>
-                    </div>
-                    ${rowsHtml}
+                <div class="price-row">
+                    <span>Mayor (4+):</span>
+                    <span class="price-value special">$${minMayor.toLocaleString("es-CL")} - $${maxMayor.toLocaleString("es-CL")}</span>
+                </div>
+                <div class="price-row">
+                    <span>Unitario:</span>
+                    <span class="price-value">$${minUnitario.toLocaleString("es-CL")} - $${maxUnitario.toLocaleString("es-CL")}</span>
                 </div>
             `;
         } else if (p.tipo === "variantes") {
@@ -361,15 +342,13 @@ function renderCatalog() {
             // simple
             const mayorStr = p.mayor ? `$${p.mayor.toLocaleString("es-CL")}` : "N/A";
             precioHtml = `
-                <div class="measures-list-layout simple-layout">
-                    <div class="simple-price-row header-row">
-                        <span>Mayor</span>
-                        <span>Unidad</span>
-                    </div>
-                    <div class="simple-price-row">
-                        <span class="price-value special">${mayorStr}</span>
-                        <span class="price-value">$${p.unitario.toLocaleString("es-CL")}</span>
-                    </div>
+                <div class="price-row">
+                    <span>Mayor (4+):</span>
+                    <span class="price-value special">${mayorStr}</span>
+                </div>
+                <div class="price-row">
+                    <span>Unitario:</span>
+                    <span class="price-value">$${p.unitario.toLocaleString("es-CL")}</span>
                 </div>
             `;
         }
@@ -387,9 +366,7 @@ function renderCatalog() {
                 >
             </div>
             <div class="product-info">
-                <h4 class="product-title">${p.codigo || p.nombre}</h4>
-                ${p.descripcion ? `<div class="product-desc" title="${p.descripcion}">${p.descripcion}</div>` : ''}
-                ${p.medida_original ? `<div class="product-spec-medida">Medida: ${p.medida_original}</div>` : ''}
+                <h4 class="product-title">${p.nombre}</h4>
                 <div class="product-prices">
                     ${precioHtml}
                 </div>
@@ -501,9 +478,7 @@ function abrirSelectorProducto() {
 
     popup.innerHTML = `
     <div class="modal-container">
-        <h2>${p.codigo || p.nombre}</h2>
-        ${p.descripcion ? `<p class="modal-product-desc" style="color: #6b5a50; margin: 4px 0 12px 0; font-size: 14px; line-height: 1.4;">${p.descripcion}</p>` : ''}
-        ${p.medida_original ? `<p class="modal-product-spec-medida" style="color: var(--primary-color); margin: 0 0 16px 0; font-size: 13px; font-weight: 600;">Medida: ${p.medida_original}</p>` : ''}
+        <h2>${p.nombre}</h2>
         
         <div class="modal-image-wrapper">
             <img src="${p.imagen}" alt="${p.nombre}" class="modal-image" onerror="this.src='https://via.placeholder.com/150?text=Sin+Foto'">
