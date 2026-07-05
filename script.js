@@ -315,7 +315,7 @@ function renderCatalog() {
         return;
     }
 
-    productosFiltrados.forEach(key => {
+    productosFiltrados.forEach((key, idx) => {
         const p = productos[key];
         let precioHtml = "";
         
@@ -361,6 +361,7 @@ function renderCatalog() {
 
         const card = document.createElement("div");
         card.className = "product-card";
+        card.style.animationDelay = (idx * 0.05 + 0.15) + 's';
         card.innerHTML = `
             <div class="product-img-wrapper" onclick="abrirImagenGrande('${key}')" title="Ver imagen en grande">
                 <img 
@@ -413,6 +414,7 @@ function abrirImagenGrande(id) {
     `;
 
     document.body.appendChild(popup);
+    document.body.classList.add("modal-open");
     requestAnimationFrame(() => popup.classList.add("active"));
 }
 
@@ -530,6 +532,7 @@ function abrirSelectorProducto() {
     `;
 
     document.body.appendChild(popup);
+    document.body.classList.add("modal-open");
     requestAnimationFrame(() => popup.classList.add("active"));
     actualizarPreciosModal();
 }
@@ -752,6 +755,7 @@ function cerrarPopup() {
     
     setTimeout(() => {
         popup.remove();
+        document.body.classList.remove("modal-open");
         
         // Limpiar query param de producto
         const url = new URL(window.location);
@@ -769,7 +773,10 @@ function cerrarPopup() {
 // Cierra el modal de producto sin gatillar la redirección inmediata a Google Sites
 function cerrarPopupSilencioso() {
     const popup = document.getElementById("popupProducto");
-    if (popup) popup.remove();
+    if (popup) {
+        popup.remove();
+        document.body.classList.remove("modal-open");
+    }
     
     const url = new URL(window.location);
     url.searchParams.delete('producto');
@@ -1056,4 +1063,11 @@ window.addEventListener("DOMContentLoaded", () => {
     renderCarrito();
     procesarParametrosURL();
     inicializarCarrusel();
+    
+    // Asignar view-transition-name a las tarjetas de categorías al hacer click
+    document.querySelectorAll(".category-card").forEach(card => {
+        card.addEventListener("click", () => {
+            card.style.viewTransitionName = "active-category-header";
+        });
+    });
 });
