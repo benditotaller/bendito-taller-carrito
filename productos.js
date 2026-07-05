@@ -1290,7 +1290,7 @@ const productos = {
     "co33": {
         "codigo": "CO33",
         "nombre": "CO33",
-        "imagen": "img/CO33.png",
+        "imagen": "img/Co33.png",
         "tipo": "medidas",
         "opciones": [
             {
@@ -1728,14 +1728,6 @@ const productos = {
         "tipo": "simple",
         "mayor": 2600,
         "unitario": 3300
-    },
-    "coronapascua1": {
-        "codigo": "CORONA_PASCUA1",
-        "nombre": "CORONA_PASCUA1",
-        "imagen": "img/CORONA_PASCUA1.png",
-        "tipo": "simple",
-        "mayor": 3000,
-        "unitario": 3800
     },
     "coronareno": {
         "codigo": "Corona Reno",
@@ -2992,7 +2984,7 @@ const productos = {
     "stencil12": {
         "codigo": "STENCIL12",
         "nombre": "STENCIL12",
-        "imagen": "img/STENCIL12.png",
+        "imagen": "img/St-12.png",
         "tipo": "simple",
         "mayor": 1200,
         "unitario": 1500
@@ -3000,7 +2992,7 @@ const productos = {
     "stencil8": {
         "codigo": "STENCIL8",
         "nombre": "STENCIL8",
-        "imagen": "img/STENCIL8.png",
+        "imagen": "img/St-08.png",
         "tipo": "simple",
         "mayor": 1300,
         "unitario": 1500
