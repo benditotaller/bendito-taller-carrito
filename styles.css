@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Parisienne&family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@400;700&family=Outfit:wght@400;700&family=Parisienne&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
 
 /* ==========================
    DESIGN SYSTEM - BENDITO TALLER (GOOGLE SITES DESIGN)
@@ -20,7 +20,7 @@
     --radius-sm: 10px;
     --radius-md: 18px;
     --radius-lg: 26px;
-    --font-serif: 'Merriweather', Georgia, serif;
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
     --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -40,6 +40,7 @@ body {
     background-color: var(--bg-light);
     color: var(--text-main);
     -webkit-font-smoothing: antialiased;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: 60px; /* Achicado verticalmente en escritorio */
-    background-image: url('img/toldo_vintage6_cropped.png');
+    background-image: url('img/toldo_vintage6_cropped.webp');
     background-size: 100% 100%; /* Estirado del largo de la barra */
     background-position: center;
     background-repeat: no-repeat;
@@ -84,11 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     .main-navbar::before {
-        height: 30px; /* Achicado en móviles */
-        background-size: 300% 100%; /* Estirar las líneas horizontalmente para que se vean más anchas */
+        background-image: url('img/toldo_nuevo.webp');
+        height: 70px; /* Cambiado a 70px según requerimiento */
+        background-size: 100% 100%; /* Mostrar imagen completa */
     }
     #catalog-section {
-        scroll-margin-top: 140px;
+        scroll-margin-top: 180px; /* Ajustado en base a la nueva altura del toldo */
     }
 }
 
@@ -770,7 +772,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: scaleY(0.768) scaleX(0.9216) translate3d(0, 0, 0);
     transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: opacity, transform;
-    background-image: url('img/ramas con hojas.png');
+    background-image: url('img/ramas con hojas.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -795,7 +797,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: opacity, transform;
     
-    background-image: url('img/ramas con hojas.png');
+    background-image: url('img/ramas con hojas.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -902,7 +904,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%) scale(1);
     width: 416px;
     height: 274px;
-    background-image: url('img/fondo_rayas.png');
+    background-image: url('img/fondo_rayas.webp');
     background-size: cover;
     background-position: center;
     border-radius: 24px; /* Suave contorno redondeado */
@@ -922,7 +924,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%) scale(1);
     width: 416px;
     height: 274px;
-    background-image: url('img/fondo_rayas.png');
+    background-image: url('img/fondo_rayas.webp');
     background-size: cover;
     background-position: center;
     border-radius: 24px;
@@ -975,8 +977,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     width: 345px;
     height: 224px;
-    transform: translate(-50%, -50%) scale(1);
-    background-image: url('img/fondo_letra.png');
+    transform: translate(-50%, -50%) scale(var(--badge-scale, 1));
+    background-image: var(--wood-image, url('img/fondo_letra.webp'));
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -989,7 +991,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .category-card:hover .card-content::before,
 .category-card.active .card-content::before {
-    transform: translate(-50%, -50%) scale(1.05);
+    transform: translate(-50%, -50%) scale(calc(var(--badge-scale, 1) * 1.05));
     animation: badgeGlowPulse 2.5s infinite ease-in-out;
 }
 
@@ -1009,8 +1011,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     width: 345px;
     height: 224px;
-    transform: translate(-50%, -50%) scale(1);
-    background-image: url('https://benditotaller.github.io/bendito-taller-carrito/img/grabados_bg.png');
+    transform: translate(-50%, -50%) scale(var(--badge-scale, 1));
+    background-image: url('https://benditotaller.github.io/bendito-taller-carrito/img/grabados_bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1018,8 +1020,8 @@ h1, h2, h3, h4, h5, h6 {
     pointer-events: none;
     opacity: 0.35;
     mix-blend-mode: multiply;
-    -webkit-mask-image: url('img/fondo_letra.png');
-    mask-image: url('img/fondo_letra.png');
+    -webkit-mask-image: var(--wood-image, url('img/fondo_letra.webp'));
+    mask-image: var(--wood-image, url('img/fondo_letra.webp'));
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
@@ -1027,62 +1029,61 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: transform;
 }
-
 .card-corazones .card-content::after {
-    background-image: url('img/CORAZONES_2.png');
+    background-image: url('img/CORAZONES_2.webp');
 }
-
 .card-nichos .card-content::after {
-    background-image: url('img/FONDO_NICHOS.png');
+    background-image: url('img/FONDO_NICHOS.webp');
 }
 
 .card-deco .card-content::after {
-    background-image: url('img/fondo_deco_2.png');
+    background-image: url('img/fondo_deco_2.webp');
 }
 
 .card-navidad .card-content::after {
-    background-image: url('img/FONDO_NAVIDAD.png');
+    background-image: url('img/FONDO_NAVIDAD.webp');
 }
 
 .card-libros .card-content::after {
-    background-image: url('img/fondo_3d.png');
+    background-image: url('img/fondo_3d.webp');
     opacity: 0.15;
 }
 
 .card-alados .card-content::after {
-    background-image: url('img/fondo_alados.png');
+    background-image: url('img/fondo_alados.webp');
 }
 
 .card-grabados .card-content::after {
-    background-image: url('img/fondo_grabados.png');
+    background-image: url('img/fondo_grabados.webp');
 }
 
 .card-calacas .card-content::after {
-    background-image: url('img/fondo_calacas.png');
+    background-image: url('img/fondo_calacas.webp');
 }
 
 .card-pascua .card-content::after {
-    background-image: url('img/fondo_pascua.png');
+    background-image: url('img/fondo_pascua.webp');
 }
 
 .card-stencil .card-content::after {
-    background-image: url('img/fondo_stencil.png');
+    background-image: url('img/fondo_stencil.webp');
 }
 
 .card-insumos .card-content::after {
-    background-image: url('img/fondo_insumos.png');
+    background-image: url('img/fondo_insumos.webp');
 }
 
 .card-mistico .card-content::after {
-    background-image: url('img/fondo_mistico.png');
+    background-image: url('img/fondo_mistico.webp');
 }
 
 .category-card:hover .card-content::after,
 .category-card.active .card-content::after {
-    transform: translate(-50%, -50%) scale(1.05);
+    transform: translate(-50%, -50%) scale(calc(var(--badge-scale, 1) * 1.05));
 }
 
 .subtitle {
+    font-family: var(--font-sans);
     font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -1098,7 +1099,7 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
 }
 
-/* Capa de destello metálico (shimmer) que recorre el contorno de fondo_letra.png */
+/* Capa de destello metálico (shimmer) que recorre el contorno de fondo_letra.webp */
 .category-card .card-inner::after {
     content: '';
     position: absolute;
@@ -1106,7 +1107,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     width: 345px;
     height: 224px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(var(--badge-scale, 1));
     background: linear-gradient(115deg, 
         rgba(255, 255, 255, 0) 0%, 
         rgba(255, 255, 255, 0) 35%, 
@@ -1125,8 +1126,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     
     /* Máscara compuesta: dibuja el badge completo y le resta uno un 6% más pequeño en el centro */
-    -webkit-mask-image: url('img/fondo_letra.png'), url('img/fondo_letra.png');
-    mask-image: url('img/fondo_letra.png'), url('img/fondo_letra.png');
+    -webkit-mask-image: var(--wood-image, url('img/fondo_letra.webp')), var(--wood-image, url('img/fondo_letra.webp'));
+    mask-image: var(--wood-image, url('img/fondo_letra.webp')), var(--wood-image, url('img/fondo_letra.webp'));
     -webkit-mask-size: 100% 100%, 94% 90%;
     mask-size: 100% 100%, 94% 90%;
     -webkit-mask-position: center, center;
@@ -1143,7 +1144,7 @@ h1, h2, h3, h4, h5, h6 {
 .category-card:hover .card-inner::after,
 .category-card.active .card-inner::after {
     opacity: 0.8; /* Destello tenue y profesional */
-    transform: translate(-50%, -50%) scale(1.05);
+    transform: translate(-50%, -50%) scale(calc(var(--badge-scale, 1) * 1.05));
     animation: borderShimmerSweep 8.8s cubic-bezier(0.25, 1, 0.5, 1) infinite;
 }
 
@@ -1159,13 +1160,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .card-content h2 {
-    font-family: var(--font-serif);
+    font-family: 'Merriweather', Georgia, serif;
     font-size: 40px; /* Letra más grande (de 34px a 40px) */
     font-weight: 700; /* Peso elegante de Merriweather */
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ffffff; /* Blanco para el contorno */
-    -webkit-text-stroke: 2.5px #ffffff; /* Borde blanco muy fino (1.25px real) */
+    color: var(--title-stroke-color, #ffffff); /* Color para el contorno */
+    -webkit-text-stroke: var(--title-stroke-width, 2.5px) var(--title-stroke-color, #ffffff); /* Borde/contorno */
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12); /* Sutil sombra de apoyo */
     margin: 0;
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
@@ -1183,7 +1184,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    color: #4b372d; /* Relleno café oscuro */
+    color: var(--title-color, #4b372d); /* Relleno café oscuro */
     -webkit-text-stroke: 0px transparent;
     text-shadow: none;
     z-index: 1;
@@ -1192,11 +1193,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .divider {
-    width: 60px;
-    height: 2px;
-    background: #FFBF00; /* Color dorado */
+    width: var(--divider-width, 60px);
+    height: var(--divider-height, 2px);
+    background-color: var(--divider-color, #FFBF00); /* Color dorado */
+    background-image: var(--divider-image, none);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
-    top: calc(50% + 56px);
+    top: calc(50% + var(--divider-top, 56px));
     left: 50%;
     transform: translate(-50%, 0) scaleX(1);
     transform-origin: center;
@@ -1397,8 +1402,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
 }
 
 /* Product Card */
@@ -1466,11 +1471,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-title {
-    font-size: 16px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin: 0 0 4px 0;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.product-desc {
+    font-size: 17px;
     font-weight: 700;
     color: var(--text-main);
-    margin: 0 0 8px 0;
     line-height: 1.3;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product-spec-medida {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 10px;
 }
 
 .product-prices {
@@ -1480,7 +1506,7 @@ h1, h2, h3, h4, h5, h6 {
 .price-row {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 16px;
     color: var(--text-muted);
     margin-bottom: 4px;
 }
@@ -1494,13 +1520,87 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+/* Measures List Layout for Alternative C */
+.measures-list-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: rgba(245, 236, 225, 0.4);
+    padding: 8px;
+    border-radius: var(--radius-sm);
+    border: 1px dashed rgba(75, 55, 45, 0.15);
+    margin-bottom: 8px;
+}
+
+.measure-price-row {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    align-items: center;
+    font-size: 16px;
+    color: var(--text-main);
+    gap: 4px;
+}
+
+.measure-price-row.header-row {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(75, 55, 45, 0.15);
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+}
+
+.measure-price-row span {
+    text-align: right;
+}
+
+.measure-price-row span:first-child {
+    text-align: left;
+    font-weight: 600;
+}
+
+.simple-price-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 16px;
+    color: var(--text-main);
+    gap: 4px;
+}
+
+.simple-price-row.header-row {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(75, 55, 45, 0.15);
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+}
+
+.simple-price-row span {
+    text-align: right;
+}
+
+.simple-price-row span:first-child {
+    text-align: left;
+    font-weight: 700;
+}
+
+.measure-label {
+    color: #4b372d;
+}
+
 .product-action-btn {
     width: 100%;
     border: none;
     background: #f0e6da;
     color: var(--text-main);
     font-family: inherit;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding: 10px;
     border-radius: var(--radius-sm);
@@ -1947,21 +2047,52 @@ h1, h2, h3, h4, h5, h6 {
     }
     .products-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.5cm; /* Separados por 0.5 cm */
+        gap: 10px;
     }
     .product-info {
         padding: 10px;
     }
     .product-title {
-        font-size: 13px;
+        font-size: 9px;
+        margin-bottom: 4px;
+    }
+    .product-desc {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .product-spec-medida {
+        font-size: 11px;
         margin-bottom: 6px;
     }
     .price-row {
-        font-size: 11px;
+        font-size: 13px;
         margin-bottom: 2px;
     }
+    .measures-list-layout {
+        padding: 6px;
+        gap: 3px;
+        margin-bottom: 6px;
+    }
+    .measure-price-row {
+        font-size: 13px;
+        gap: 2px;
+    }
+    .measure-price-row.header-row {
+        font-size: 10px;
+        padding-bottom: 2px;
+        margin-bottom: 1px;
+    }
+    .simple-price-row {
+        font-size: 13px;
+        gap: 2px;
+    }
+    .simple-price-row.header-row {
+        font-size: 10px;
+        padding-bottom: 2px;
+        margin-bottom: 1px;
+    }
     .product-action-btn {
-        font-size: 12px;
+        font-size: 13px;
         padding: 8px 4px;
         margin-top: 8px;
     }
@@ -2097,7 +2228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Posicionamiento específico y distribución de las ramas */
-/* 1. Rama Principal (rama1.png) - El esqueleto central */
+/* 1. Rama Principal (rama1.webp) - El esqueleto central */
 .branch-single {
     left: 0; /* Ubicada exactamente al borde (pegada) */
     top: -10%;
@@ -2108,7 +2239,7 @@ h1, h2, h3, h4, h5, h6 {
     animation: sway-single 4s ease-in-out infinite alternate;
 }
 
-/* 2. Rama Secundaria (rama31.png) - Capa de profundidad detrás de la principal */
+/* 2. Rama Secundaria (rama31.webp) - Capa de profundidad detrás de la principal */
 .branch-second {
     left: 35px; /* Ubicada al lado de la principal (pegada a ella y al borde) */
     top: -10%;
@@ -2258,7 +2389,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('img/tapiz_ramas_largo.png');
+    background-image: url('img/tapiz_ramas_largo.webp');
     background-size: auto 119px; /* Estirado un 20% más (99px * 1.2 = 118.8px) */
     background-position: center;
     background-repeat: repeat-x;
@@ -2401,26 +2532,29 @@ h1, h2, h3, h4, h5, h6 {
     .dots-banner-container.tall-banner {
         min-height: 140px;
     }
+    .dots-banner-container::after {
+        background-size: auto 100% !important;
+    }
     .dots-banner-title {
-    font-family: 'Petit Formal Script', cursive;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0 0 8px 0;
-    color: #1c1c1c;
-    line-height: 1.4;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
-}
+        font-family: 'Petit Formal Script', cursive;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 0 8px 0;
+        color: #1c1c1c;
+        line-height: 1.1 !important;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
     .dots-banner-text {
-    font-family: 'Petit Formal Script', cursive;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0;
-    color: #1c1c1c;
-    line-height: 1.4;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
-}
+        font-family: 'Petit Formal Script', cursive;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+        color: #1c1c1c;
+        line-height: 1.1 !important;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
 }
 
 /* ===== RESPONSIVE CARD SCALING & GENERAL MOBILE OPTIMIZATIONS ===== */
@@ -2464,7 +2598,7 @@ h1, h2, h3, h4, h5, h6 {
     
     .card-content h2 {
         font-size: 26px !important;
-        -webkit-text-stroke: 1.8px #ffffff;
+        -webkit-text-stroke: calc(var(--title-stroke-width, 2.5px) * 0.72) var(--title-stroke-color, #ffffff);
     }
     
     .card-content .subtitle {
@@ -2474,8 +2608,14 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .divider {
-        width: 40px;
-        top: calc(50% + 34px) !important;
+        width: var(--divider-width, 40px);
+        height: var(--divider-height, 2px);
+        background-color: var(--divider-color, #FFBF00);
+        background-image: var(--divider-image, none);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: calc(50% + calc(var(--divider-top, 56px) * 0.6)) !important;
         transform: translate(-50%, 0) !important;
     }
 
@@ -2495,25 +2635,25 @@ h1, h2, h3, h4, h5, h6 {
 
     /* Ajuste de fuentes y tamaño para banners en celulares */
     .dots-banner-title {
-    font-family: 'Petit Formal Script', cursive;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0 0 8px 0;
-    color: #1c1c1c;
-    line-height: 1.4;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
-}
+        font-family: 'Petit Formal Script', cursive;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 0 8px 0;
+        color: #1c1c1c;
+        line-height: 1.1 !important;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
     .dots-banner-text {
-    font-family: 'Petit Formal Script', cursive;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0;
-    color: #1c1c1c;
-    line-height: 1.4;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
-}
+        font-family: 'Petit Formal Script', cursive;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+        color: #1c1c1c;
+        line-height: 1.1 !important;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    }
     .banner-insta-btn {
         padding: 10px 22px !important;
         font-size: 14px !important;
@@ -2578,15 +2718,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Diferentes imágenes de fondo para cada tarjeta de características */
 .feature-card:nth-child(1)::before {
-    background-image: url('img/fondo_cuadros_blancos.png');
+    background-image: url('img/fondo_cuadros_blancos.webp');
 }
 
 .feature-card:nth-child(2)::before {
-    background-image: url('img/fondo_cuadros_blancos1.png');
+    background-image: url('img/fondo_cuadros_blancos1.webp');
 }
 
 .feature-card:nth-child(3)::before {
-    background-image: url('img/fondo_cuadros_blancos2.png');
+    background-image: url('img/fondo_cuadros_blancos2.webp');
 }
 
 .feature-icon {
@@ -2760,7 +2900,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('img/fondo_letra.png');
+    background-image: url('img/fondo_letra.webp');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2776,8 +2916,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     background: linear-gradient(135deg, rgba(149, 171, 158, 0.55) 0%, rgba(125, 144, 132, 0.55) 100%);
-    -webkit-mask-image: url('img/fondo_letra.png');
-    mask-image: url('img/fondo_letra.png');
+    -webkit-mask-image: url('img/fondo_letra.webp');
+    mask-image: url('img/fondo_letra.webp');
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
     -webkit-mask-repeat: no-repeat;
@@ -2876,3 +3016,163 @@ h1, h2, h3, h4, h5, h6 {
 body.modal-open {
     overflow: hidden !important;
 }
+
+/* ---- ETIQUETAS FLOTANTES DE CATEGORÍA (Nuevos Diseños / Ofertas) ---- */
+.card-tag {
+    position: absolute;
+    top: 14px; /* Ajustado para compensar la rotación y la altura de las dos líneas */
+    left: 14px;
+    background-color: #d9534f; /* Rojo coral de contraste para llamar la atención */
+    color: #ffffff;
+    font-family: var(--font-sans);
+    font-size: 13px; /* Aumentado un 20% */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 6px 12px; /* Ajustado para dos líneas y evitar que sea gigante */
+    border-radius: 7px;
+    z-index: 10;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    pointer-events: none;
+    text-align: center;
+    line-height: 1.15; /* Más juntas las dos líneas de texto */
+    
+    /* Estado inicial rotado diagonalmente */
+    transform: rotate(-12deg);
+    transform-origin: center;
+    
+    animation: pulseAnimation 3.5s ease-in-out infinite;
+}
+
+.card-tag.tag-danger {
+    background-color: #d9534f;
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: rotate(-12deg) scale(1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+    50% {
+        transform: rotate(-12deg) scale(1.15); /* Hacia adelante (acercamiento) manteniendo la inclinación */
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    }
+    100% {
+        transform: rotate(-12deg) scale(1); /* Hacia atrás (alejamiento) */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.card-tag.tag-nuevos {
+    background-image: url('img/tag_nuevos_disenos.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 75px;
+    height: 115px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
+    overflow: hidden;
+    
+    /* Posicionamiento colgante */
+    top: -10px; /* Colgado desde arriba */
+    left: 18px;
+    
+    /* Animación de balanceo/colgado */
+    transform-origin: 50% 0%; /* Anclado en la parte superior centro */
+    animation: swingAnimation 3.5s ease-in-out infinite;
+}
+
+.card-tag.tag-ofertas {
+    background-image: url('img/tag_ofertas_especiales.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 75px;
+    height: 115px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
+    overflow: hidden;
+    
+    /* Posicionamiento colgante */
+    top: -10px; /* Colgado desde arriba */
+    left: 18px;
+    
+    /* Animación de balanceo/colgado */
+    transform-origin: 50% 0%; /* Anclado en la parte superior centro */
+    animation: swingAnimation 3.5s ease-in-out infinite;
+}
+
+@keyframes swingAnimation {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.card-infantil .card-content::after {
+    background-image: url('img/Abeja reina.webp');
+}
+
+/* Ajuste de etiquetas en vista móvil/tablet (alineación con marco interno) */
+@media (max-width: 768px) {
+    .card-tag.tag-nuevos,
+    .card-tag.tag-ofertas,
+    .card-tag.card-tag-custom {
+        left: -14px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-prueba .card-content::after {
+    background-image: url('img/Abeja reina.webp');
+}
+.card-tag.card-tag-custom {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 75px;
+    height: 115px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    letter-spacing: 0;
+    line-height: 0;
+}
+

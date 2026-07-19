@@ -196,67 +196,67 @@ const CATEGORY_BANNER_DATA = {
     "all": {
         title: "Productos",
         subtitle: "Catálogo completo",
-        bg: "img/fondo_rayas.png"
+        bg: "img/fondo_rayas.webp"
     },
     "corazones": {
         title: "Corazones",
         subtitle: "Colección",
-        bg: "img/CORAZONES_2.png"
+        bg: "img/CORAZONES_2.webp"
     },
     "corazones-alados": {
         title: "Alados",
         subtitle: "diseños variados",
-        bg: "img/fondo_alados.png"
+        bg: "img/fondo_alados.webp"
     },
     "nichos-y-altares": {
         title: "Nichos",
         subtitle: "estilo mexicanos",
-        bg: "img/FONDO_NICHOS.png"
+        bg: "img/FONDO_NICHOS.webp"
     },
     "mexicanos-y-calacas": {
         title: "Calacas",
         subtitle: "y mexicanos",
-        bg: "img/fondo_calacas.png"
+        bg: "img/fondo_calacas.webp"
     },
     "grabados": {
         title: "Grabados",
         subtitle: "infantiles y más",
-        bg: "img/fondo_grabados.png"
+        bg: "img/fondo_grabados.webp"
     },
     "navidad": {
         title: "Navidad",
         subtitle: "todo el año",
-        bg: "img/FONDO_NAVIDAD.png"
+        bg: "img/FONDO_NAVIDAD.webp"
     },
     "deco": {
         title: "Deco",
         subtitle: "creativa",
-        bg: "img/fondo_deco_2.png"
+        bg: "img/fondo_deco_2.webp"
     },
     "stencil": {
         title: "Stencils",
         subtitle: "creaciones propias",
-        bg: "img/fondo_stencil.png"
+        bg: "img/fondo_stencil.webp"
     },
     "mistico-y-mas": {
         title: "Místico",
         subtitle: "energía y conexión",
-        bg: "img/fondo_mistico.png"
+        bg: "img/fondo_mistico.webp"
     },
     "otros-insumos": {
         title: "Insumos",
         subtitle: "complementarios",
-        bg: "img/fondo_insumos.png"
+        bg: "img/fondo_insumos.webp"
     },
     "libros-3d": {
         title: "Libros 3D",
         subtitle: "fantasía y encanto",
-        bg: "img/fondo_3d.png"
+        bg: "img/fondo_3d.webp"
     },
     "pascua": {
         title: "Pascua",
         subtitle: "de resurrección",
-        bg: "img/fondo_pascua.png"
+        bg: "img/fondo_pascua.webp"
     }
 };
 
@@ -271,7 +271,7 @@ function actualizarBannerCategoria() {
     if (busquedaActual) {
         titleEl.textContent = "Buscador";
         subtitleEl.textContent = `Resultados para "${busquedaActual}"`;
-        banner.style.backgroundImage = "url('img/fondo_rayas.png')";
+        banner.style.backgroundImage = "url('img/fondo_rayas.webp')";
     } else {
         titleEl.textContent = bannerData.title;
         subtitleEl.textContent = bannerData.subtitle;
@@ -310,6 +310,20 @@ function renderCatalog() {
         return true;
     });
 
+    // Ordenar productosFiltrados para agrupar productos con medida única (simple) arriba de los con medidas múltiples (medidas)
+    productosFiltrados.sort((a, b) => {
+        const typeA = productos[a].tipo || "simple";
+        const typeB = productos[b].tipo || "simple";
+        
+        if (typeA === "simple" && typeB === "medidas") {
+            return -1;
+        }
+        if (typeA === "medidas" && typeB === "simple") {
+            return 1;
+        }
+        return 0;
+    });
+
     if (productosFiltrados.length === 0) {
         grid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 16px;">No se encontraron productos en esta categoría. 📦</div>`;
         return;
@@ -320,19 +334,24 @@ function renderCatalog() {
         let precioHtml = "";
         
         if (p.tipo === "medidas") {
-            const minMayor = Math.min(...p.opciones.map(o => o.mayor));
-            const maxMayor = Math.max(...p.opciones.map(o => o.mayor));
-            const minUnitario = Math.min(...p.opciones.map(o => o.unitario));
-            const maxUnitario = Math.max(...p.opciones.map(o => o.unitario));
-            
+            let rowsHtml = "";
+            p.opciones.forEach(op => {
+                rowsHtml += `
+                    <div class="measure-price-row">
+                        <span class="measure-label">${op.medida}</span>
+                        <span class="price-value special">$${op.mayor.toLocaleString("es-CL")}</span>
+                        <span class="price-value">$${op.unitario.toLocaleString("es-CL")}</span>
+                    </div>
+                `;
+            });
             precioHtml = `
-                <div class="price-row">
-                    <span>Mayor (4+):</span>
-                    <span class="price-value special">$${minMayor.toLocaleString("es-CL")} - $${maxMayor.toLocaleString("es-CL")}</span>
-                </div>
-                <div class="price-row">
-                    <span>Unitario:</span>
-                    <span class="price-value">$${minUnitario.toLocaleString("es-CL")} - $${maxUnitario.toLocaleString("es-CL")}</span>
+                <div class="measures-list-layout">
+                    <div class="measure-price-row header-row">
+                        <span>Medida</span>
+                        <span>Mayor</span>
+                        <span>Unidad</span>
+                    </div>
+                    ${rowsHtml}
                 </div>
             `;
         } else if (p.tipo === "variantes") {
@@ -348,13 +367,15 @@ function renderCatalog() {
             // simple
             const mayorStr = p.mayor ? `$${p.mayor.toLocaleString("es-CL")}` : "N/A";
             precioHtml = `
-                <div class="price-row">
-                    <span>Mayor (4+):</span>
-                    <span class="price-value special">${mayorStr}</span>
-                </div>
-                <div class="price-row">
-                    <span>Unitario:</span>
-                    <span class="price-value">$${p.unitario.toLocaleString("es-CL")}</span>
+                <div class="measures-list-layout simple-layout">
+                    <div class="simple-price-row header-row">
+                        <span>Mayor</span>
+                        <span>Unidad</span>
+                    </div>
+                    <div class="simple-price-row">
+                        <span class="price-value special">${mayorStr}</span>
+                        <span class="price-value">$${p.unitario.toLocaleString("es-CL")}</span>
+                    </div>
                 </div>
             `;
         }
@@ -373,7 +394,9 @@ function renderCatalog() {
                 >
             </div>
             <div class="product-info">
-                <h4 class="product-title">${p.nombre}</h4>
+                <h4 class="product-title">${p.codigo || p.nombre}</h4>
+                ${p.descripcion ? `<div class="product-desc" title="${p.descripcion}">${p.descripcion}</div>` : ''}
+                ${p.medida_original ? `<div class="product-spec-medida">Medida: ${p.medida_original}</div>` : ''}
                 <div class="product-prices">
                     ${precioHtml}
                 </div>
@@ -487,7 +510,9 @@ function abrirSelectorProducto() {
 
     popup.innerHTML = `
     <div class="modal-container">
-        <h2>${p.nombre}</h2>
+        <h2>${p.codigo || p.nombre}</h2>
+        ${p.descripcion ? `<p class="modal-product-desc" style="color: #6b5a50; margin: 4px 0 12px 0; font-size: 14px; line-height: 1.4;">${p.descripcion}</p>` : ''}
+        ${p.medida_original ? `<p class="modal-product-spec-medida" style="color: var(--primary-color); margin: 0 0 16px 0; font-size: 13px; font-weight: 600;">Medida: ${p.medida_original}</p>` : ''}
         
         <div class="modal-image-wrapper">
             <img src="${p.imagen}" alt="${p.nombre}" class="modal-image" onerror="this.src='https://via.placeholder.com/150?text=Sin+Foto'">
@@ -959,21 +984,21 @@ function procesarParametrosURL() {
 // Carrusel de la página de inicio (Productos Destacados)
 // El cliente puede agregar o remover imágenes de forma sencilla aquí:
 const IMAGENES_CARROUSEL = [
-    { src: "img/Arabesco Floral1.png", title: "Arabesco Floral", subtitle: "Diseños Exclusivos" },
-    { src: "img/Comp8.png", title: "Composición 8", subtitle: "Arte en Madera" },
-    { src: "img/Tienda vintage2.png", title: "Tienda Vintage", subtitle: "Estilo Único" },
-    { src: "img/Libromagico1.png", title: "Libro Mágico", subtitle: "Creatividad en 3D" },
-    { src: "img/co38.png", title: "CO38", subtitle: "Corazón devoto" },
-    { src: "img/co42.png", title: "CO42", subtitle: "Corazón multicapa flores" },
-    { src: "img/co35.png", title: "CO35", subtitle: "Corazón 5 capas" },
-    { src: "img/altar12.png", title: "ALTAR 12", subtitle: "Altar en capas" },
-    { src: "img/ca20.png", title: "CA20", subtitle: "Corazón alado 3 capas" },
-    { src: "img/ca21.png", title: "CA21", subtitle: "Corazón alado 3 capas" },
-    { src: "img/comp9.png", title: "COMP9", subtitle: "Composición multicapa" },
-    { src: "img/comp12.png", title: "COMP12", subtitle: "Tetera reloj" },
-    { src: "img/comp10.png", title: "COMP10", subtitle: "Composición calaca" },
-    { src: "img/setfiguritas10.png", title: "SET FIGURITAS10", subtitle: "Set para pintar" },
-    { src: "img/setfiguritas11.png", title: "SET FIGURITAS11", subtitle: "Set para pintar" }
+    { src: "img/co38.webp", title: "CO38", subtitle: "Corazón devoto" },
+    { src: "img/co42.webp", title: "CO42", subtitle: "Corazón multicapa flores" },
+    { src: "img/Comp8.webp", title: "hola", subtitle: "Arte en Madera" },
+    { src: "img/altar12.webp", title: "ALTAR 12", subtitle: "Altar en capas" },
+    { src: "img/Libromagico1.webp", title: "LIBRO", subtitle: "PRUEBA" },
+    { src: "img/ca20.webp", title: "CA20", subtitle: "Corazón alado 3 capas" },
+    { src: "img/ca21.webp", title: "CA21", subtitle: "Corazón alado 3 capas" },
+    { src: "img/Arabesco Floral1.webp", title: "Arabesco Floral", subtitle: "Diseños Exclusivos" },
+    { src: "img/comp9.webp", title: "COMP9", subtitle: "Composición multicapa" },
+    { src: "img/comp12.webp", title: "COMP12", subtitle: "Tetera reloj" },
+    { src: "img/setfiguritas10.webp", title: "SET FIGURITAS10", subtitle: "Set para pintar" },
+    { src: "img/setfiguritas11.webp", title: "SET FIGURITAS11", subtitle: "Set para pintar" },
+    { src: "img/Corona  Reno.webp", title: "PRUEBA", subtitle: "Arte en Madera" },
+    { src: "img/Tienda vintage2.webp", title: "Tienda Vintage", subtitle: "ENCUENTRALO EN DECO" },
+    { src: "img/ca20.webp", title: "CA20", subtitle: "Corazón alado 3 capas" }
 ];
 
 let carouselIndex = 0;
@@ -996,8 +1021,8 @@ function inicializarCarrusel() {
             <img src="${img.src}" alt="${img.title}">
             <div class="carousel-overlay">
                 <div class="carousel-caption">
-                    <p>${img.subtitle}</p>
-                    <h3>${img.title}</h3>
+                    <p>${img.title}</p>
+                    <h3>${img.subtitle}</h3>
                 </div>
             </div>
         `;
